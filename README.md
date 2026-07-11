@@ -11,9 +11,9 @@
 ---
 
 ### Interests & Learning
-*   **Game Servers:** Learning to manage and optimize Terraria (TShock) and Minecraft servers.
-*   **Development:** Currently exploring the basics of C#, Java, and JavaScript to build plugins and bots.
-*   **Environments:** Getting comfortable with Linux system administration and mobile dev via Termux.
+* **Game Servers:** Learning to manage and optimize Terraria (TShock) and Minecraft servers.
+* **Development:** Currently exploring the basics of C#, Java, and JavaScript to build plugins and bots.
+* **Environments:** Getting comfortable with Linux system administration and mobile dev via Termux.
 
 ### Tech Stack & Tools
 <p align="left">
@@ -24,14 +24,14 @@
 
 ---
 
-### 🏰 Featured Project
+### Featured Project
 
-**Darynxia** is my cross-platform Terraria server built with TShock.
+**Darynxia** is a cross-platform Terraria server built with TShock.
 
-- 🌍 Address: `darynxia.ddns.net:26018`
-- 🎮 Terraria 1.4.5.6
-- 🛠️ Cross-Play • FreeBuild • TShock
-- 🔗 https://terraria-servers.com/server/5615/
+- Address: `darynxia.ddns.net:26018`
+- Version: Terraria 1.4.5.6
+- Features: Cross-Play, FreeBuild, TShock
+- Listing: https://terraria-servers.com/server/5615/
 
 I develop and maintain the server while learning plugin development, Linux administration, and game server infrastructure.
 
