@@ -24,6 +24,19 @@
 
 ---
 
+### 🏰 Featured Project
+
+**Darynxia** is my cross-platform Terraria server built with TShock.
+
+- 🌍 Address: `darynxia.ddns.net:26018`
+- 🎮 Terraria 1.4.5.6
+- 🛠️ Cross-Play • FreeBuild • TShock
+- 🔗 https://terraria-servers.com/server/5615/
+
+I develop and maintain the server while learning plugin development, Linux administration, and game server infrastructure.
+
+---
+
 ### Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=darynx&show_icons=true&theme=tokyonight&hide_border=true&show=reviews,issues,prs,contribs&include_all_commits=true" width="48%" />
