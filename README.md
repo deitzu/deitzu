@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Darynx</h1>
+<h1 align="center">Hi, I'm Deitzu</h1>
 
 <p align="center">
   I'm a game server hobbyist and a <b>beginner developer</b> currently learning the ropes of software engineering. I spend most of my time tinkering with server infrastructure while teaching myself how to write clean, effective code.
