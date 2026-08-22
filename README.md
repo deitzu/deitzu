@@ -35,12 +35,11 @@ Listing: https://terraria-servers.com/server/5615/
 
 ### Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=darynx&show_icons=true&theme=dark&hide_border=true&title_color=2dd4bf&icon_color=5eead4&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&show=reviews,issues,prs,contribs" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darynx&layout=compact&theme=dark&hide_border=true&title_color=2dd4bf&text_color=c9d1d9&bg_color=0d1117" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?user=darynx&bg_color=0d1117&color=2dd4bf&line=5eead4&point=c9d1d9&area=true&area_color=0d1117&hide_border=true" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github-profile-trophy.vercel.app/?username=darynx&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8">
-    <img src="https://github-profile-trophy.vercel.app/?username=darynx&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8" alt="GitHub Trophies" />
+  <a href="https://github-readme-trophy.vercel.app/?username=darynx&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8">
+    <img src="https://github-readme-trophy.vercel.app/?username=darynx&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8" alt="GitHub Trophies" />
   </a>
 </p>
