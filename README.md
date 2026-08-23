@@ -35,7 +35,8 @@ Listing: https://terraria-servers.com/server/5615/
 
 ### Stats
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?user=deitzu&bg_color=0d1117&color=2dd4bf&line=5eead4&point=c9d1d9&area=true&area_color=0d1117&hide_border=true" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=deitzu&show_icons=true&theme=dark&hide_border=true&title_color=2dd4bf&icon_color=5eead4&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&show=reviews,issues,prs,contribs&token=__INSERT_GITHUB_PAT__" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deitzu&layout=compact&theme=dark&hide_border=true&title_color=2dd4bf&text_color=c9d1d9&bg_color=0d1117&token=__INSERT_GITHUB_PAT__" width="48%" />
 </p>
 
 <p align="center">
