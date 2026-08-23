@@ -59,5 +59,5 @@ Listing: https://terraria-servers.com/server/5615/
 ### Connect
 <p align="center">
   <a href="https://github.com/deitzu"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-deitzu-2dd4bf?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:you@example.com"><img alt="Email" src="https://img.shields.io/badge/Email-contact%40example.com-2dd4bf?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://discord.com/users/YOUR_DISCORD_ID"><img alt="Discord" src="https://img.shields.io/badge/Discord-deitzu-2dd4bf?style=for-the-badge&logo=discord&logoColor=white" /></a>
 </p>
