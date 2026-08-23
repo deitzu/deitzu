@@ -37,7 +37,6 @@ Listing: https://terraria-servers.com/server/5615/
 
 ---
 
-### Contribution Snake
 <p align="center">
   <img src="https://raw.githubusercontent.com/deitzu/deitzu/main/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
 </p>
