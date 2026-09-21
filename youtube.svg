@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" role="img" aria-label="YouTube · deitzuu">
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" role="img" aria-label="YouTube · @deitzuu">
   <rect x="0.75" y="0.75" width="178.5" height="42.5" rx="9" fill="#161b22" stroke="#30363d"/>
   <g transform="translate(11 10)">
     <rect x="0" y="1" width="20" height="18" rx="5" fill="#ff0000"/>
     <path d="m8 5.5 6 4-6 4z" fill="#fff"/>
   </g>
   <text x="43" y="18" fill="#8b949e" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".7">YOUTUBE</text>
-  <text x="43" y="34" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="650">deitzuu</text>
+  <text x="43" y="34" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="650">@deitzuu</text>
 </svg>
