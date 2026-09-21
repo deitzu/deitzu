@@ -1,0 +1,89 @@
+name: Update profile stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "2/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update SVG stats
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          user_json="$(gh api users/deitzu)"
+          repos="$(jq -r '.public_repos' <<< "$user_json")"
+          followers="$(jq -r '.followers' <<< "$user_json")"
+
+          stars="$(
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].stargazers_count' |
+              awk '{sum += $1} END {print sum + 0}'
+          )"
+
+          forks="$(
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].forks_count' |
+              awk '{sum += $1} END {print sum + 0}'
+          )"
+
+          commits="$(
+            gh api 'search/commits?q=author%3Adeitzu&per_page=1'               --jq '.total_count'
+          )"
+
+          prs="$(
+            gh api 'search/issues?q=author%3Adeitzu+type%3Apr&per_page=1'               --jq '.total_count'
+          )"
+
+          updated="$(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          python - <<'PY'
+          from pathlib import Path
+          import os
+
+          path = Path("profile.svg")
+          text = path.read_text(encoding="utf-8")
+
+          values = {
+              "__STARS__": os.environ["STARS"],
+              "__COMMITS__": os.environ["COMMITS"],
+              "__REPOS__": os.environ["REPOS"],
+              "__FOLLOWERS__": os.environ["FOLLOWERS"],
+              "__FORKS__": os.environ["FORKS"],
+              "__PRS__": os.environ["PRS"],
+              "__UPDATED__": os.environ["UPDATED"],
+          }
+
+          for old, new in values.items():
+              text = text.replace(old, new)
+
+          path.write_text(text, encoding="utf-8")
+          PY
+
+          if git diff --quiet -- profile.svg; then
+            echo "No stat changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile.svg
+          git commit -m "chore: update profile stats"
+          git push
+        env:
+          STARS: "$stars"
+          COMMITS: "$commits"
+          REPOS: "$repos"
+          FOLLOWERS: "$followers"
+          FORKS: "$forks"
+          PRS: "$prs"
+          UPDATED: "$updated"
