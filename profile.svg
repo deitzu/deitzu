@@ -12,18 +12,13 @@
   <rect x="0" y="0" width="6" height="360" rx="3" fill="url(#name)"/>
 
   <g font-family="system-ui,Segoe UI,Arial,sans-serif">
-    <text x="34" y="53" fill="url(#name)" font-size="40" font-weight="800" letter-spacing="1.1">Deitzu</text>
-    <svg x="187" y="20" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true">
-      <g transform="rotate(45 12 12)">
-        <rect x="5.5" y="5.5" width="13" height="13" rx="2.2" fill="#f05032"/>
-        <path d="M8.5 12h4.2a3 3 0 0 0 3-3v-1M12.7 12a3 3 0 0 0 3 3h.1" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
-        <circle cx="8.5" cy="12" r="1.5" fill="#fff"/>
-        <circle cx="15.7" cy="8" r="1.5" fill="#fff"/>
-        <circle cx="15.8" cy="15" r="1.5" fill="#fff"/>
-      </g>
+    <!-- Octocat / GitHub mark -->
+    <svg x="34" y="20" width="58" height="58" viewBox="0 0 98 96" aria-hidden="true">
+      <path fill="#f0f6fc" d="M48.9 0C21.9 0 0 22 0 49.1c0 21.7 14.1 40.1 33.7 46.6 2.5.5 3.4-1.1 3.4-2.4 0-1.2-.1-4.3-.1-8.4-13.7 3-16.6-6.6-16.6-6.6-2.3-5.8-5.6-7.4-5.6-7.4-4.5-3.1.3-3 .3-3 5 .4 7.6 5.1 7.6 5.1 4.4 7.6 11.5 5.4 14.3 4.1.4-3.2 1.7-5.4 3.1-6.7-10.9-1.2-22.3-5.5-22.3-24.2 0-5.4 1.9-9.8 5-13.3-.5-1.2-2.2-6.3.5-13.1 0 0 4.1-1.3 13.5 5.1a47 47 0 0 1 24.6 0c9.4-6.4 13.5-5.1 13.5-5.1 2.7 6.8 1 11.9.5 13.1 3.1 3.5 5 7.9 5 13.3 0 18.8-11.4 23-22.4 24.2 1.7 1.5 3.2 4.4 3.2 8.9 0 6.4-.1 11.6-.1 13.1 0 1.3.9 2.9 3.4 2.4C83.9 89.2 98 70.8 98 49.1 98 22 76 0 48.9 0z"/>
     </svg>
-    <text x="34" y="79" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">@deitzu · he/him</text>
-    <text x="250" y="79" fill="#8b949e" font-size="17">building things · learning systems · breaking stuff</text>
+    <text x="108" y="53" fill="url(#name)" font-size="40" font-weight="800" letter-spacing="1.1">Deitzu</text>
+    <text x="108" y="79" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">@deitzu · he/him</text>
+    <text x="300" y="79" fill="#8b949e" font-size="17">building things · learning systems · breaking stuff</text>
 
     <line x1="34" y1="104" x2="1066" y2="104" stroke="#30363d"/>
 
