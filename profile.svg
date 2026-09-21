@@ -14,21 +14,29 @@
     <text x="34" y="242" fill="#c9d1d9" font-size="20">networking</text>
     <text x="34" y="276" fill="#c9d1d9" font-size="20">cybersecurity</text>
 
-    <line x1="365" y1="128" x2="365" y2="300" stroke="#21262d"/>
+    <line x1="285" y1="128" x2="285" y2="300" stroke="#21262d"/>
 
-    <text x="405" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">STACK</text>
-    <text x="405" y="174" fill="#c9d1d9" font-size="20">C#</text>
-    <text x="405" y="208" fill="#c9d1d9" font-size="20">Java</text>
-    <text x="405" y="242" fill="#c9d1d9" font-size="20">JavaScript</text>
-    <text x="405" y="276" fill="#c9d1d9" font-size="20">Bash · Git · Linux</text>
+    <text x="320" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">STACK</text>
+    <text x="320" y="174" fill="#c9d1d9" font-size="20">C#</text>
+    <text x="320" y="208" fill="#c9d1d9" font-size="20">Java</text>
+    <text x="320" y="242" fill="#c9d1d9" font-size="20">JavaScript</text>
+    <text x="320" y="276" fill="#c9d1d9" font-size="20">Bash · Git · Linux</text>
 
-    <line x1="740" y1="128" x2="740" y2="300" stroke="#21262d"/>
+    <line x1="545" y1="128" x2="545" y2="300" stroke="#21262d"/>
 
-    <text x="780" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">CURRENTLY</text>
-    <text x="780" y="174" fill="#c9d1d9" font-size="20">learning Java</text>
-    <text x="780" y="208" fill="#c9d1d9" font-size="20">exploring networking</text>
-    <text x="780" y="242" fill="#c9d1d9" font-size="20">building Darynxia</text>
-    <text x="780" y="276" fill="#c9d1d9" font-size="20">tinkering with Termux</text>
+    <text x="580" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">CURRENTLY</text>
+    <text x="580" y="174" fill="#c9d1d9" font-size="20">learning Java</text>
+    <text x="580" y="208" fill="#c9d1d9" font-size="20">exploring networking</text>
+    <text x="580" y="242" fill="#c9d1d9" font-size="20">building Darynxia</text>
+    <text x="580" y="276" fill="#c9d1d9" font-size="20">tinkering with Termux</text>
+
+    <line x1="800" y1="128" x2="800" y2="300" stroke="#21262d"/>
+
+    <text x="835" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">PROJECTS</text>
+    <text x="835" y="174" fill="#c9d1d9" font-size="20">Darynxia</text>
+    <text x="835" y="208" fill="#c9d1d9" font-size="20">game servers</text>
+    <text x="835" y="242" fill="#c9d1d9" font-size="20">Android experiments</text>
+    <text x="835" y="276" fill="#c9d1d9" font-size="20">random builds</text>
 
     <line x1="34" y1="314" x2="1066" y2="314" stroke="#21262d"/>
 
