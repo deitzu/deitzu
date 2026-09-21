@@ -1,49 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="Deitzu profile">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
   <rect width="1100" height="360" rx="14" fill="#0d1117"/>
-  <rect x="0" y="0" width="6" height="360" rx="3" fill="#58a6ff"/>
+  <rect x="0" y="0" width="6" height="360" rx="3" fill="url(#name)"/>
 
   <g font-family="system-ui,Segoe UI,Arial,sans-serif">
-    <text x="34" y="54" fill="#f0f6fc" font-size="40" font-weight="700">deitzu</text>
-    <text x="34" y="84" fill="#8b949e" font-size="18">building things · learning systems · breaking stuff</text>
+    <text x="35" y="55" fill="#58a6ff" opacity=".18" font-size="42" font-weight="800">deitzu</text>
+    <text x="34" y="54" fill="url(#name)" font-size="40" font-weight="800" letter-spacing="1.2">deitzu</text>
+    <text x="34" y="84" fill="#8b949e" font-size="18" letter-spacing=".2">building things · learning systems · breaking stuff</text>
 
-    <line x1="34" y1="108" x2="1066" y2="108" stroke="#21262d"/>
+    <line x1="34" y1="108" x2="1066" y2="108" stroke="#30363d"/>
 
-    <text x="34" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">INTERESTS</text>
-    <text x="34" y="174" fill="#c9d1d9" font-size="20">game servers</text>
-    <text x="34" y="208" fill="#c9d1d9" font-size="20">linux / termux</text>
-    <text x="34" y="242" fill="#c9d1d9" font-size="20">networking</text>
-    <text x="34" y="276" fill="#c9d1d9" font-size="20">cybersecurity</text>
+    <text x="34" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">INTERESTS</text>
+    <text x="34" y="174" fill="#d8e6ff" font-size="20">game servers</text>
+    <text x="34" y="208" fill="#d8e6ff" font-size="20">linux / termux</text>
+    <text x="34" y="242" fill="#d8e6ff" font-size="20">networking</text>
+    <text x="34" y="276" fill="#d8e6ff" font-size="20">cybersecurity</text>
 
     <line x1="285" y1="128" x2="285" y2="300" stroke="#21262d"/>
 
-    <text x="320" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">STACK</text>
-    <text x="320" y="174" fill="#c9d1d9" font-size="20">C#</text>
-    <text x="320" y="208" fill="#c9d1d9" font-size="20">Java</text>
-    <text x="320" y="242" fill="#c9d1d9" font-size="20">JavaScript</text>
-    <text x="320" y="276" fill="#c9d1d9" font-size="20">Bash · Git · Linux</text>
+    <text x="320" y="140" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">STACK</text>
+    <text x="320" y="174" fill="#e5ddff" font-size="20">C#</text>
+    <text x="320" y="208" fill="#e5ddff" font-size="20">Java</text>
+    <text x="320" y="242" fill="#e5ddff" font-size="20">JavaScript</text>
+    <text x="320" y="276" fill="#e5ddff" font-size="20">Bash · Git · Linux</text>
 
     <line x1="545" y1="128" x2="545" y2="300" stroke="#21262d"/>
 
-    <text x="580" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">CURRENTLY</text>
-    <text x="580" y="174" fill="#c9d1d9" font-size="20">learning Java</text>
-    <text x="580" y="208" fill="#c9d1d9" font-size="20">exploring networking</text>
-    <text x="580" y="242" fill="#c9d1d9" font-size="20">building Darynxia</text>
-    <text x="580" y="276" fill="#c9d1d9" font-size="20">tinkering with Termux</text>
+    <text x="580" y="140" fill="#2dd4bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
+    <text x="580" y="174" fill="#d8fff8" font-size="20">learning Java</text>
+    <text x="580" y="208" fill="#d8fff8" font-size="20">exploring networking</text>
+    <text x="580" y="242" fill="#d8fff8" font-size="20">building Darynxia</text>
+    <text x="580" y="276" fill="#d8fff8" font-size="20">tinkering with Termux</text>
 
     <line x1="800" y1="128" x2="800" y2="300" stroke="#21262d"/>
 
-    <text x="835" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">PROJECTS</text>
-    <text x="835" y="174" fill="#c9d1d9" font-size="20">Darynxia</text>
-    <text x="835" y="208" fill="#c9d1d9" font-size="20">game servers</text>
-    <text x="835" y="242" fill="#c9d1d9" font-size="20">Android experiments</text>
-    <text x="835" y="276" fill="#c9d1d9" font-size="20">random builds</text>
+    <text x="835" y="140" fill="#f59e0b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">PROJECTS</text>
+    <text x="835" y="174" fill="#fff2d6" font-size="20">Darynxia</text>
+    <text x="835" y="208" fill="#fff2d6" font-size="20">game servers</text>
+    <text x="835" y="242" fill="#fff2d6" font-size="20">Android experiments</text>
+    <text x="835" y="276" fill="#fff2d6" font-size="20">random builds</text>
 
-    <line x1="34" y1="314" x2="1066" y2="314" stroke="#21262d"/>
+    <line x1="34" y1="314" x2="1066" y2="314" stroke="#30363d"/>
 
-    <text x="34" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">status:</text>
+    <text x="34" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">status:</text>
     <text x="112" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">probably working on something</text>
 
-    <text x="820" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">home:</text>
+    <text x="820" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">home:</text>
     <text x="884" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">Termux</text>
   </g>
 </svg>
