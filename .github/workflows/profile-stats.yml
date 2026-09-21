@@ -46,6 +46,17 @@ jobs:
 
           updated="$(date -u '+%Y-%m-%d %H:%M UTC')"
 
+          export STARS COMMITS REPOS FOLLOWERS FORKS PRS UPDATED
+          STARS="$stars"
+          COMMITS="$commits"
+          REPOS="$repos"
+          FOLLOWERS="$followers"
+          FORKS="$forks"
+          PRS="$prs"
+          UPDATED="$updated"
+
+          cp .github/profile-template.svg profile.svg
+
           python - <<'PY'
           from pathlib import Path
           import os
@@ -79,11 +90,3 @@ jobs:
           git add profile.svg
           git commit -m "chore: update profile stats"
           git push
-        env:
-          STARS: "$stars"
-          COMMITS: "$commits"
-          REPOS: "$repos"
-          FOLLOWERS: "$followers"
-          FORKS: "$forks"
-          PRS: "$prs"
-          UPDATED: "$updated"
