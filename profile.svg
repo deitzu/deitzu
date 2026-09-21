@@ -1,3 +1,4 @@
+<!-- stats template: refreshed automatically -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="Deitzu profile">
   <defs>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
@@ -69,25 +70,25 @@
 
     <rect x="835" y="153" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
     <text x="850" y="173" fill="#8b949e" font-size="12">STARS</text>
-    <text x="850" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">0</text>
+    <text x="850" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">3</text>
 
     <rect x="952" y="153" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
     <text x="967" y="173" fill="#8b949e" font-size="12">COMMITS</text>
-    <text x="967" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">0</text>
+    <text x="967" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">346</text>
 
     <rect x="835" y="216" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
     <text x="850" y="236" fill="#8b949e" font-size="12">REPOS</text>
-    <text x="850" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">6</text>
+    <text x="850" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">8</text>
 
     <rect x="952" y="216" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
     <text x="967" y="236" fill="#8b949e" font-size="12">FOLLOWERS</text>
-    <text x="967" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">0</text>
+    <text x="967" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">9</text>
 
     <rect x="835" y="279" width="105" height="24" rx="6" fill="#161b22" stroke="#30363d"/>
-    <text x="849" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">FORKS  <tspan fill="#f0f6fc">0</tspan></text>
+    <text x="849" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">FORKS  <tspan fill="#f0f6fc">1</tspan></text>
 
     <rect x="952" y="279" width="105" height="24" rx="6" fill="#161b22" stroke="#30363d"/>
-    <text x="966" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">PRs  <tspan fill="#f0f6fc">0</tspan></text>
+    <text x="966" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">PRs  <tspan fill="#f0f6fc">3</tspan></text>
 
     <line x1="34" y1="314" x2="1066" y2="314" stroke="#30363d"/>
 
@@ -100,6 +101,6 @@
     <text x="136" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">probably working on something</text>
 
     <text x="820" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">sync:</text>
-    <text x="885" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">pending</text>
+    <text x="885" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">2026-09-21 17:03 UTC</text>
   </g>
 </svg>
