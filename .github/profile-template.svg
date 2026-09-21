@@ -21,72 +21,85 @@
 
     <line x1="34" y1="108" x2="1066" y2="108" stroke="#30363d"/>
 
-    <!-- INTERESTS -->
-    <circle cx="49" cy="136" r="11" fill="#58a6ff" opacity=".15"/>
-    <path d="M43 136h12M49 130v12" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Interests icon -->
+    <svg x="34" y="122" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="8" fill="none" stroke="#58a6ff" stroke-width="1.8"/>
+      <circle cx="12" cy="12" r="2.5" fill="#58a6ff"/>
+      <path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
     <text x="70" y="140" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">INTERESTS</text>
-    <text x="34" y="174" fill="#d8e6ff" font-size="20">⚙  game servers</text>
-    <text x="34" y="208" fill="#d8e6ff" font-size="20">⌘  linux / termux</text>
-    <text x="34" y="242" fill="#d8e6ff" font-size="20">⌁  networking</text>
-    <text x="34" y="276" fill="#d8e6ff" font-size="20">◇  cybersecurity</text>
+    <text x="34" y="174" fill="#d8e6ff" font-size="20">game servers</text>
+    <text x="34" y="208" fill="#d8e6ff" font-size="20">linux / termux</text>
+    <text x="34" y="242" fill="#d8e6ff" font-size="20">networking</text>
+    <text x="34" y="276" fill="#d8e6ff" font-size="20">cybersecurity</text>
 
     <line x1="285" y1="128" x2="285" y2="300" stroke="#21262d"/>
 
-    <!-- STACK -->
-    <circle cx="335" cy="136" r="11" fill="#a78bfa" opacity=".15"/>
-    <path d="M329 132l6-4 6 4-6 4-6-4zm0 5l6 4 6-4m-12 5l6 4 6-4" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Stack icon -->
+    <svg x="320" y="122" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="m12 3 8 4-8 4-8-4 8-4zm-8 9 8 4 8-4M4 17l8 4 8-4" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linejoin="round"/>
+    </svg>
     <text x="356" y="140" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">STACK</text>
-    <text x="320" y="174" fill="#e5ddff" font-size="20">#  C#</text>
-    <text x="320" y="208" fill="#e5ddff" font-size="20">☕  Java</text>
-    <text x="320" y="242" fill="#e5ddff" font-size="20">JS  JavaScript</text>
-    <text x="320" y="276" fill="#e5ddff" font-size="20">$_ Bash · Git · Linux</text>
+    <text x="320" y="174" fill="#e5ddff" font-size="20">C#</text>
+    <text x="320" y="208" fill="#e5ddff" font-size="20">Java</text>
+    <text x="320" y="242" fill="#e5ddff" font-size="20">JavaScript</text>
+    <text x="320" y="276" fill="#e5ddff" font-size="20">Bash · Git · Linux</text>
 
     <line x1="545" y1="128" x2="545" y2="300" stroke="#21262d"/>
 
-    <!-- CURRENTLY -->
-    <circle cx="595" cy="136" r="11" fill="#2dd4bf" opacity=".15"/>
-    <path d="M589 136a6 6 0 1 0 12 0a6 6 0 1 0-12 0zm3 0h6m-3-3v6" fill="none" stroke="#2dd4bf" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Currently icon -->
+    <svg x="580" y="122" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="8.5" fill="none" stroke="#2dd4bf" stroke-width="1.8"/>
+      <path d="M12 7v5l3 2" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
     <text x="616" y="140" fill="#2dd4bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
-    <text x="580" y="174" fill="#d8fff8" font-size="20">◌  learning Java</text>
-    <text x="580" y="208" fill="#d8fff8" font-size="20">⌁  exploring networking</text>
-    <text x="580" y="242" fill="#d8fff8" font-size="20">◆  building Darynxia</text>
-    <text x="580" y="276" fill="#d8fff8" font-size="20">▸  tinkering with Termux</text>
+    <text x="580" y="174" fill="#d8fff8" font-size="20">learning Java</text>
+    <text x="580" y="208" fill="#d8fff8" font-size="20">exploring networking</text>
+    <text x="580" y="242" fill="#d8fff8" font-size="20">building Darynxia</text>
+    <text x="580" y="276" fill="#d8fff8" font-size="20">tinkering with Termux</text>
 
     <line x1="800" y1="128" x2="800" y2="300" stroke="#21262d"/>
 
-    <!-- GITHUB STATS -->
-    <circle cx="850" cy="136" r="11" fill="#f59e0b" opacity=".15"/>
-    <path d="M844 139l2-7 4 4 4-2-2 7-4-4-4 2z" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Stats icon -->
+    <svg x="835" y="122" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M5 18V9M12 18V5M19 18v-7" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 19h18" stroke="#f59e0b" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
     <text x="871" y="140" fill="#f59e0b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">GITHUB STATS</text>
 
     <rect x="835" y="153" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="850" y="173" fill="#8b949e" font-size="12">★ STARS</text>
+    <text x="850" y="173" fill="#8b949e" font-size="12">STARS</text>
     <text x="850" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">__STARS__</text>
 
     <rect x="952" y="153" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="967" y="173" fill="#8b949e" font-size="12">⌘ COMMITS</text>
+    <text x="967" y="173" fill="#8b949e" font-size="12">COMMITS</text>
     <text x="967" y="198" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">__COMMITS__</text>
 
     <rect x="835" y="216" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="850" y="236" fill="#8b949e" font-size="12">▣ REPOS</text>
+    <text x="850" y="236" fill="#8b949e" font-size="12">REPOS</text>
     <text x="850" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">__REPOS__</text>
 
     <rect x="952" y="216" width="105" height="55" rx="8" fill="#161b22" stroke="#30363d"/>
-    <text x="967" y="236" fill="#8b949e" font-size="12">♙ FOLLOWERS</text>
+    <text x="967" y="236" fill="#8b949e" font-size="12">FOLLOWERS</text>
     <text x="967" y="261" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">__FOLLOWERS__</text>
 
     <rect x="835" y="279" width="105" height="24" rx="6" fill="#161b22" stroke="#30363d"/>
-    <text x="849" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">⑂ FORKS  <tspan fill="#f0f6fc">__FORKS__</tspan></text>
+    <text x="849" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">FORKS  <tspan fill="#f0f6fc">__FORKS__</tspan></text>
 
     <rect x="952" y="279" width="105" height="24" rx="6" fill="#161b22" stroke="#30363d"/>
-    <text x="966" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">⌘ PRs  <tspan fill="#f0f6fc">__PRS__</tspan></text>
+    <text x="966" y="296" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">PRs  <tspan fill="#f0f6fc">__PRS__</tspan></text>
 
     <line x1="34" y1="314" x2="1066" y2="314" stroke="#30363d"/>
 
-    <text x="34" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">status:</text>
-    <text x="112" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">probably working on something</text>
+    <!-- Status icon -->
+    <svg x="34" y="325" width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+      <circle cx="7" cy="7" r="4.5" fill="#2dd4bf"/>
+      <circle cx="7" cy="7" r="2" fill="#0d1117"/>
+    </svg>
+    <text x="58" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">status:</text>
+    <text x="136" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">probably working on something</text>
 
-    <text x="650" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">sync:</text>
-    <text x="705" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">__UPDATED__</text>
+    <text x="820" y="340" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="700">sync:</text>
+    <text x="885" y="340" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">__UPDATED__</text>
   </g>
 </svg>
