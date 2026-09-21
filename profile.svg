@@ -13,6 +13,15 @@
 
   <g font-family="system-ui,Segoe UI,Arial,sans-serif">
     <text x="34" y="53" fill="url(#name)" font-size="40" font-weight="800" letter-spacing="1.1">Deitzu</text>
+    <svg x="187" y="20" width="34" height="34" viewBox="0 0 24 24" aria-hidden="true">
+      <g transform="rotate(45 12 12)">
+        <rect x="5.5" y="5.5" width="13" height="13" rx="2.2" fill="#f05032"/>
+        <path d="M8.5 12h4.2a3 3 0 0 0 3-3v-1M12.7 12a3 3 0 0 0 3 3h.1" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+        <circle cx="8.5" cy="12" r="1.5" fill="#fff"/>
+        <circle cx="15.7" cy="8" r="1.5" fill="#fff"/>
+        <circle cx="15.8" cy="15" r="1.5" fill="#fff"/>
+      </g>
+    </svg>
     <text x="34" y="79" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">@deitzu · he/him</text>
     <text x="250" y="79" fill="#8b949e" font-size="17">building things · learning systems · breaking stuff</text>
 
@@ -49,11 +58,8 @@
     <text x="347" y="200" fill="#e5ddff" font-size="19">Java</text>
     <svg x="320" y="219" width="18" height="18" viewBox="0 0 24 24"><path d="M6 5h12v14H6zM9 9l2 2-2 2m4 2h2" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>
     <text x="347" y="234" fill="#e5ddff" font-size="19">JavaScript</text>
-    <!-- Git logo -->
-    <svg x="320" y="253" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20.6 11.1 12.9 3.4a1.9 1.9 0 0 0-2.7 0L8.5 5.1l2.2 2.2 1.3-1.3 4.1 4.1a2.7 2.7 0 0 0 1.1 5.1v2.1a2 2 0 0 1-2-2v-2.2a2.7 2.7 0 0 0-.8-5.2l-3.8-3.8 1.2-1.2 7.7 7.7a1.9 1.9 0 0 0 2.1.4v1.8a2 2 0 1 1-1 0v-.9z" fill="#f05032"/>
-      <circle cx="17.2" cy="12.9" r="1.5" fill="#0d1117"/>
-      <circle cx="13.2" cy="16.9" r="1.5" fill="#0d1117"/>
+    <svg x="320" y="253" width="18" height="18" viewBox="0 0 24 24">
+      <path d="M4 6h16M4 12h16M4 18h16M8 3v6M16 9v6M8 15v6" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round"/>
     </svg>
     <text x="347" y="268" fill="#e5ddff" font-size="19">Bash · Git · Linux</text>
 
