@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="Deitzu profile">
+  <rect width="1100" height="360" rx="14" fill="#0d1117"/>
+  <rect x="0" y="0" width="6" height="360" rx="3" fill="#58a6ff"/>
+
+  <g font-family="system-ui,Segoe UI,Arial,sans-serif">
+    <text x="34" y="48" fill="#f0f6fc" font-size="28" font-weight="700">deitzu</text>
+    <text x="34" y="78" fill="#8b949e" font-size="15">building things, breaking things, learning why</text>
+
+    <text x="34" y="120" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">INTERESTS</text>
+    <text x="34" y="148" fill="#c9d1d9" font-size="15">game servers</text>
+    <text x="34" y="174" fill="#c9d1d9" font-size="15">linux / termux</text>
+    <text x="34" y="200" fill="#c9d1d9" font-size="15">networking</text>
+    <text x="34" y="226" fill="#c9d1d9" font-size="15">random experiments</text>
+
+    <line x1="285" y1="108" x2="285" y2="306" stroke="#21262d"/>
+
+    <text x="320" y="120" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">STACK</text>
+    <text x="320" y="148" fill="#c9d1d9" font-size="15">C#</text>
+    <text x="320" y="174" fill="#c9d1d9" font-size="15">Java</text>
+    <text x="320" y="200" fill="#c9d1d9" font-size="15">JavaScript</text>
+    <text x="320" y="226" fill="#c9d1d9" font-size="15">Bash · Linux</text>
+
+    <line x1="520" y1="108" x2="520" y2="306" stroke="#21262d"/>
+
+    <text x="555" y="120" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="700">CURRENTLY</text>
+    <text x="555" y="148" fill="#c9d1d9" font-size="15">learning &amp; tinkering</text>
+    <text x="555" y="174" fill="#c9d1d9" font-size="15">building Darynxia</text>
+    <text x="555" y="200" fill="#c9d1d9" font-size="15">playing with systems</text>
+
+    <line x1="34" y1="268" x2="1066" y2="268" stroke="#21262d"/>
+
+    <text x="34" y="300" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">status:</text>
+    <text x="100" y="300" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">probably working on something</text>
+
+    <text x="620" y="300" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">home:</text>
+    <text x="676" y="300" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">Termux</text>
+  </g>
+</svg>
