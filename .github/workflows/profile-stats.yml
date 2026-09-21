@@ -2,6 +2,9 @@ name: Update profile stats
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/profile-template.svg"
   schedule:
     - cron: "2/5 * * * *"
 
