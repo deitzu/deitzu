@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="88" viewBox="0 0 430 88" role="img" aria-label="Darynxia Terraria server">
+  <rect width="430" height="88" rx="12" fill="#161b22" stroke="#30363d"/>
+  <circle cx="44" cy="44" r="26" fill="#21262d"/>
+  <path fill="#7d8590" d="M31 55l7-20 6 7 8-9 10 22H31z"/>
+  <circle cx="44" cy="44" r="4" fill="#f0f6fc"/>
+  <text x="84" y="34" fill="#8b949e" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13">TERRARIA SERVER</text>
+  <text x="84" y="58" fill="#f0f6fc" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="20" font-weight="650">Darynxia</text>
+  <text x="390" y="53" text-anchor="end" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">↗ open</text>
+</svg>
