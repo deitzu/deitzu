@@ -9,7 +9,7 @@
   </defs>
 
   <rect width="1100" height="360" rx="14" fill="#0d1117"/>
-  <rect x="0" y="0" width="6" height="360" rx="3" fill="url(#name)"/>
+  <rect x="0" y="0" width="4" height="360" fill="#ffffff"/>
 
   <g font-family="system-ui,Segoe UI,Arial,sans-serif">
     <!-- Octocat / GitHub mark -->
