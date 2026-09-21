@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="30" viewBox="0 0 170 30" role="img" aria-label="Terraria server">
+  <rect width="170" height="30" rx="7" fill="#161b22" stroke="#30363d"/>
+  <path d="M10 22l5-13 4 4 5-6 7 15H10z" fill="none" stroke="#9ca3af" stroke-width="1.4" stroke-linejoin="round"/>
+  <text x="39" y="20" fill="#c9d1d9" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650">Terraria Server</text>
+</svg>
