@@ -1,7 +1,3 @@
-### Hello There👋
-
----
-
 <img src="./profile.svg" width="100%" alt="Deitzu profile">
 
 <a href="https://terraria-servers.com/server/5615/"><img src="./terraria.svg" height="44" alt="Terraria Server · Darynxia"></a>&nbsp;
