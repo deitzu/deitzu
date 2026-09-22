@@ -3,3 +3,5 @@
 <a href="https://terraria-servers.com/server/5615/"><img src="./terraria.svg" height="44" alt="Terraria Server · Darynxia"></a>&nbsp;
 <a href="https://discord.gg/t5rjCeP399"><img src="./discord-server.svg" height="44" alt="Discord Server"></a>&nbsp;
 <a href="https://www.youtube.com/@deitzuu"><img src="./youtube.svg" height="44" alt="YouTube · deitzuu"></a>
+<br>
+<a href="https://github.com/deitzu"><img src="https://komarev.com/ghpvc/?username=deitzu&label=PROFILE+VIEWS&color=30363d&style=flat-square" height="24" alt="Profile views"></a>
