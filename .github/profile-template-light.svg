@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Deitzu profile">
+  <defs>
+    <linearGradient id="name-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(0.92); }
+      }
+      .pulse-dot {
+        animation: pulse 2.5s ease-in-out infinite;
+        transform-origin: 678px 46px;
+      }
+    </style>
+  </defs>
+
+  <!-- Base background -->
+  <rect x="0.75" y="0.75" width="958.5" height="358.5" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+    <!-- Monogram / Octocat icon box -->
+    <rect x="28" y="22" width="50" height="50" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <svg x="36" y="30" width="34" height="34" viewBox="0 0 98 96" aria-hidden="true">
+      <path fill="#1f2328" d="M48.9 0C21.9 0 0 22 0 49.1c0 21.7 14.1 40.1 33.7 46.6 2.5.5 3.4-1.1 3.4-2.4 0-1.2-.1-4.3-.1-8.4-13.7 3-16.6-6.6-16.6-6.6-2.3-5.8-5.6-7.4-5.6-7.4-4.5-3.1.3-3 .3-3 5 .4 7.6 5.1 7.6 5.1 4.4 7.6 11.5 5.4 14.3 4.1.4-3.2 1.7-5.4 3.1-6.7-10.9-1.2-22.3-5.5-22.3-24.2 0-5.4 1.9-9.8 5-13.3-.5-1.2-2.2-6.3.5-13.1 0 0 4.1-1.3 13.5 5.1a47 47 0 0 1 24.6 0c9.4-6.4 13.5-5.1 13.5-5.1 2.7 6.8 1 11.9.5 13.1 3.1 3.5 5 7.9 5 13.3 0 18.8-11.4 23-22.4 24.2 1.7 1.5 3.2 4.4 3.2 8.9 0 6.4-.1 11.6-.1 13.1 0 1.3.9 2.9 3.4 2.4C83.9 89.2 98 70.8 98 49.1 98 22 76 0 48.9 0z"/>
+    </svg>
+
+    <!-- Name & Info -->
+    <text x="90" y="52" fill="url(#name-grad-light)" font-size="30" font-weight="800" letter-spacing="0.4">Deitzu</text>
+    <text x="92" y="69" fill="#656d76" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">@deitzu · discord: @deitzu · he/him</text>
+
+    <!-- Status pill -->
+    <rect x="660" y="28" width="272" height="36" rx="18" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="678" cy="46" r="7" fill="#0d9488" opacity="0.2"/>
+    <circle cx="678" cy="46" r="4.5" fill="#0d9488" class="pulse-dot"/>
+    <text x="695" y="50" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">working on projects &amp; systems</text>
+
+    <!-- Header Divider -->
+    <line x1="28" y1="88" x2="932" y2="88" stroke="#d0d7de" stroke-width="1"/>
+
+    <!-- Bento 1: Interests & Focus -->
+    <rect x="28" y="104" width="276" height="206" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <g transform="translate(42, 120)">
+      <circle cx="8" cy="8" r="7" fill="none" stroke="#0969da" stroke-width="1.6"/>
+      <circle cx="8" cy="8" r="2.2" fill="#0969da"/>
+    </g>
+    <text x="64" y="132" fill="#0969da" font-family="ui-monospace, monospace" font-size="12" font-weight="800" letter-spacing="1">INTERESTS &amp; FOCUS</text>
+
+    <!-- Item 1 -->
+    <svg x="42" y="150" width="16" height="16" viewBox="0 0 24 24"><path d="M4 15c2-6 14-6 16 0M7 15v4M17 15v4M9 8h6M8 5l2-2M16 5l-2-2" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="66" y="163" fill="#1f2328" font-size="13.5" font-weight="500">Game Servers · Darynxia</text>
+
+    <!-- Item 2 -->
+    <svg x="42" y="184" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3 4 7l8 4 8-4-8-4zm-8 9 8 4 8-4M4 16l8 5 8-5" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    <text x="66" y="197" fill="#1f2328" font-size="13.5" font-weight="500">Linux &amp; Termux</text>
+
+    <!-- Item 3 -->
+    <svg x="42" y="218" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4z" fill="none" stroke="#0969da" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 12h3l2-3 2 3h2" fill="none" stroke="#0969da" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="66" y="231" fill="#1f2328" font-size="13.5" font-weight="500">Network Security</text>
+
+    <!-- Item 4 -->
+    <svg x="42" y="252" width="16" height="16" viewBox="0 0 24 24"><path d="M3 12h5l3-7 4 14 3-7h3" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="66" y="265" fill="#1f2328" font-size="13.5" font-weight="500">System Exploration</text>
+
+    <text x="42" y="296" fill="#656d76" font-family="ui-monospace, monospace" font-size="10.5">always breaking &amp; rebuilding</text>
+
+
+    <!-- Bento 2: Stack & Tools -->
+    <rect x="320" y="104" width="276" height="206" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <g transform="translate(334, 120)">
+      <path d="m7 2 6 3.5-6 3.5-6-3.5L7 2zm-6 7 6 3.5 6-3.5M1 12.5l6 3.5 6-3.5" fill="none" stroke="#8250df" stroke-width="1.6" stroke-linejoin="round"/>
+    </g>
+    <text x="356" y="132" fill="#8250df" font-family="ui-monospace, monospace" font-size="12" font-weight="800" letter-spacing="1">STACK &amp; TOOLS</text>
+
+    <!-- Row 1 Pills -->
+    <g transform="translate(334, 146)">
+      <rect width="52" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="26" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">C#</text>
+
+      <rect x="60" width="58" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="89" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Java</text>
+
+      <rect x="126" width="94" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="173" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">JavaScript</text>
+    </g>
+
+    <!-- Row 2 Pills -->
+    <g transform="translate(334, 180)">
+      <rect width="64" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="32" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Bash</text>
+
+      <rect x="72" width="66" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="105" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Linux</text>
+
+      <rect x="146" width="50" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="171" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Git</text>
+    </g>
+
+    <!-- Row 3 Pills -->
+    <g transform="translate(334, 214)">
+      <rect width="108" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="54" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Networking</text>
+
+      <rect x="116" width="82" height="26" rx="6" fill="#eaeef2" stroke="#d0d7de"/>
+      <text x="157" y="17" fill="#1f2328" font-size="12" font-weight="600" text-anchor="middle">Termux</text>
+    </g>
+
+    <text x="334" y="270" fill="#656d76" font-family="ui-monospace, monospace" font-size="11">actively learning &amp; building</text>
+    <text x="334" y="296" fill="#8c959f" font-family="ui-monospace, monospace" font-size="10">core tools · server automation</text>
+
+
+    <!-- Bento 3: GitHub Stats -->
+    <rect x="612" y="104" width="320" height="206" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <g transform="translate(626, 120)">
+      <path d="M4 14V7M9 14V3M14 14V9" stroke="#0d9488" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M2 15h14" stroke="#0d9488" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <text x="648" y="132" fill="#0d9488" font-family="ui-monospace, monospace" font-size="12" font-weight="800" letter-spacing="1">GITHUB ACTIVITY</text>
+
+    <!-- Tile 1: Stars -->
+    <rect x="626" y="146" width="140" height="52" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+    <svg x="636" y="154" width="13" height="13" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3z" fill="none" stroke="#0d9488" stroke-width="1.7" stroke-linejoin="round"/></svg>
+    <text x="654" y="165" fill="#656d76" font-size="10" font-weight="700">STARS</text>
+    <text x="636" y="190" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="750">__STARS__</text>
+
+    <!-- Tile 2: Commits -->
+    <rect x="778" y="146" width="140" height="52" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+    <svg x="788" y="154" width="13" height="13" viewBox="0 0 24 24"><path d="M7 4v7h10V4M7 11l-3 4m13-4 3 4M12 11v8" fill="none" stroke="#0d9488" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="806" y="165" fill="#656d76" font-size="10" font-weight="700">COMMITS</text>
+    <text x="788" y="190" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="750">__COMMITS__</text>
+
+    <!-- Tile 3: Repos -->
+    <rect x="626" y="206" width="140" height="52" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+    <svg x="636" y="214" width="13" height="13" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2" fill="none" stroke="#0d9488" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#0d9488" stroke-width="1.4" stroke-linecap="round"/></svg>
+    <text x="654" y="225" fill="#656d76" font-size="10" font-weight="700">REPOS</text>
+    <text x="636" y="250" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="750">__REPOS__</text>
+
+    <!-- Tile 4: Followers -->
+    <rect x="778" y="206" width="140" height="52" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+    <svg x="788" y="214" width="13" height="13" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5" fill="none" stroke="#0d9488" stroke-width="1.7"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6" fill="none" stroke="#0d9488" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <text x="806" y="225" fill="#656d76" font-size="10" font-weight="700">FOLLOWERS</text>
+    <text x="788" y="250" fill="#1f2328" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" font-weight="750">__FOLLOWERS__</text>
+
+    <!-- Sub-stats row -->
+    <rect x="626" y="268" width="140" height="26" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="638" y="285" fill="#656d76" font-family="ui-monospace, monospace" font-size="10.5">FORKS <tspan fill="#1f2328" font-weight="700">__FORKS__</tspan></text>
+
+    <rect x="778" y="268" width="140" height="26" rx="6" fill="#ffffff" stroke="#d0d7de"/>
+    <text x="790" y="285" fill="#656d76" font-family="ui-monospace, monospace" font-size="10.5">PRs <tspan fill="#1f2328" font-weight="700">__PRS__</tspan></text>
+
+    <!-- Bottom Footer -->
+    <text x="32" y="338" fill="#656d76" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5">“building things · learning systems · breaking stuff”</text>
+    <text x="928" y="338" fill="#8c959f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">sync: __UPDATED__</text>
+  </g>
+</svg>

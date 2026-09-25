@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - ".github/profile-template.svg"
+      - ".github/profile-template-dark.svg"
+      - ".github/profile-template-light.svg"
   schedule:
-    - cron: "2/5 * * * *"
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
@@ -30,21 +31,25 @@ jobs:
           followers="$(jq -r '.followers' <<< "$user_json")"
 
           stars="$(
-            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].stargazers_count' |
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated' \
+              --jq '.[].stargazers_count' |
               awk '{sum += $1} END {print sum + 0}'
           )"
 
           forks="$(
-            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].forks_count' |
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated' \
+              --jq '.[].forks_count' |
               awk '{sum += $1} END {print sum + 0}'
           )"
 
           commits="$(
-            gh api 'search/commits?q=author%3Adeitzu&per_page=1'               --jq '.total_count'
+            gh api 'search/commits?q=author%3Adeitzu&per_page=1' \
+              --jq '.total_count'
           )"
 
           prs="$(
-            gh api 'search/issues?q=author%3Adeitzu+type%3Apr&per_page=1'               --jq '.total_count'
+            gh api 'search/issues?q=author%3Adeitzu+type%3Apr&per_page=1' \
+              --jq '.total_count'
           )"
 
           updated="$(date -u '+%Y-%m-%d %H:%M UTC')"
@@ -58,14 +63,9 @@ jobs:
           PRS="$prs"
           UPDATED="$updated"
 
-          cp .github/profile-template.svg profile.svg
-
           python - <<'PY'
           from pathlib import Path
           import os
-
-          path = Path("profile.svg")
-          text = path.read_text(encoding="utf-8")
 
           values = {
               "__STARS__": os.environ["STARS"],
@@ -77,19 +77,27 @@ jobs:
               "__UPDATED__": os.environ["UPDATED"],
           }
 
-          for old, new in values.items():
-              text = text.replace(old, new)
+          targets = [
+              (".github/profile-template-dark.svg", "profile-dark.svg"),
+              (".github/profile-template-light.svg", "profile-light.svg"),
+          ]
 
-          path.write_text(text, encoding="utf-8")
+          for tmpl, out in targets:
+              content = Path(tmpl).read_text(encoding="utf-8")
+              for k, v in values.items():
+                  content = content.replace(k, v)
+              Path(out).write_text(content, encoding="utf-8")
+
+          Path("profile.svg").write_text(Path("profile-dark.svg").read_text(encoding="utf-8"), encoding="utf-8")
           PY
 
-          if git diff --quiet -- profile.svg; then
+          if git diff --quiet -- profile-dark.svg profile-light.svg profile.svg; then
             echo "No stat changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile.svg
+          git add profile-dark.svg profile-light.svg profile.svg
           git commit -m "chore: update profile stats"
           git push
