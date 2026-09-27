@@ -12,56 +12,62 @@
 <img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
 
 <details>
-<summary>Detail Stack</summary>
+<summary>Detail Stack & Tools</summary>
 
-> a mix of stuff i'm actually using, stuff i'm still learning, and stuff i somehow ended up needing.
+> some of this i use a lot, some i'm still figuring out, and some are here because one stupid project made me learn them.
 
 <br>
 
 <img src="./stack-csharp.svg" width="100%" alt="C# detail">
 
-<p>TShock and ServerCore are what really pulled me into C#. i kept running into .NET stuff while working on server projects, so at some point learning the language became easier than constantly poking around it blindly.</p>
+<p>i got into C# mostly because TShock and ServerCore kept throwing .NET stuff at me. at first i just wanted things to work, then i figured i might as well learn the actual thing too.</p>
+<p>still learning this one. i've used it for server stuff, but there's still a lot of C# and .NET that i haven't really touched yet.</p>
 
 <img src="./stack-java.svg" width="100%" alt="Java detail">
 
-<p>a lot of the weird stuff i want to mess with runs on the JVM. i'm learning Java by poking at apps, Android stuff, compatibility problems, and the occasional <code>.jar</code> that refuses to cooperate.</p>
+<p>a lot of the stuff i want to mess with somehow ends up being Java, so eventually i had to stop staring at <code>.jar</code> files and hoping for the best.</p>
+<p>i'm still learning Java, but this is probably the one i'm furthest into out of the three. most of it is just me poking at apps, Android stuff, source code, weird compatibility problems, and seeing what breaks.</p>
 
 <img src="./stack-javascript.svg" width="100%" alt="JavaScript detail">
 
-<p>most of my JavaScript stuff starts in the browser. userscripts, PonyTown tools, Discord bots, and random web experiments usually happen here whenever the browser gets in my way.</p>
+<p>mostly got into JS because browser stuff kept annoying me. userscripts, PonyTown tools, Discord bots, random web things, that kinda stuff.</p>
+<p>still learning this one too. i mostly use it for small tools and scripts, so there's probably a lot of JS stuff i haven't touched yet.</p>
 
 <img src="./stack-bash.svg" width="100%" alt="Bash detail">
 
-<p>Bash mostly stuck because of Termux and automation. once i noticed how often i was repeating the same commands, writing a script started making a lot more sense than typing the same thing forever.</p>
+<p>this one kinda came with Linux and Termux. after typing the same command for the 500th time i eventually decided a script was probably a better idea.</p>
+<p>pretty comfortable with it for automation, setup scripts, aliases, CLI stuff, etc. some of my scripts are definitely held together by pure “don't touch it, it works”.</p>
 
 <img src="./stack-linux.svg" width="100%" alt="Linux detail">
 
-<p>Linux is basically the environment behind a lot of the other stuff here. servers, Termux, development, system tinkering, random fixes, and occasionally creating a new problem while trying to fix the old one.</p>
+<p>probably the thing i'm most comfortable with here. i've been messing with Linux and Termux for like 2–3 years now, mostly by just trying stuff, breaking stuff, figuring out what went wrong, then doing the same thing again :v</p>
+<p>a lot of my other stuff kinda came from this too. servers, Bash, random system stuff, development, networking, whatever.</p>
 
 <img src="./stack-git.svg" width="100%" alt="Git detail">
 
-<p>Git is mostly how i keep experiments from turning into a mess of random versions and forgotten changes. pretty much every project i care about ends up here sooner or later.</p>
+<p>started using Git because i kinda had to, then it just became normal. branches, history, rollback, messing with stuff without completely destroying it, all that.</p>
+<p>i'm pretty comfortable with the usual Git stuff. not really trying to become some git wizard or whatever.</p>
 
 </details>
 
 <details>
 <summary>Detail Interests</summary>
 
-> most of these overlap anyway. that's kinda the point.
+> most of these kinda overlap anyway, which is probably why they keep showing up everywhere.
 
 <br>
 
 <h4>Game servers</h4>
-<p>i got more interested in what happens around a game than actually making the game itself. i like running servers, messing with plugins and configs, fixing weird compatibility problems, and figuring out why something randomly decides to break at 3am.</p>
+<p>i got way more interested in the server side of games than actually making the games themselves. i like running them, messing with configs and plugins, fixing random compatibility problems, and figuring out why something suddenly decided to explode at 3am.</p>
 
 <h4>Linux / Termux</h4>
-<p>this is basically my playground for system stuff. i use it for CLI tools, servers, scripting, experiments, and whatever random idea needs a shell before it turns into an actual project.</p>
+<p>probably one of the biggest reasons i ended up messing with so much other stuff. i've been using Linux and Termux for around 2–3 years now, mostly self-taught and mostly by breaking things first and figuring them out later.</p>
 
 <h4>Networking</h4>
-<p>this one is partly because i'm actually studying it, but i also genuinely like figuring out how everything connects. protocols, ports, routing, DNS, fiber, and the fun little mystery of why two machines can see each other but still refuse to cooperate.</p>
+<p>i'm studying this at school anyway, but i also ended up genuinely liking it. i like figuring out how things actually connect, what happens between two machines, and why something that should be working suddenly isn't.</p>
 
 <h4>Network security</h4>
-<p>i'm more interested in the network side of security than trying to learn every security topic at once. things like traffic, ports, firewalls, exposed services, and figuring out how to keep a network doing what it's supposed to do without accidentally opening a giant hole.</p>
+<p>this mostly came from getting more interested in what happens around networks instead of security as one giant topic. ports, firewalls, exposed services, traffic, that kinda stuff.</p>
 
 </details>
 
