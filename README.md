@@ -14,42 +14,40 @@
 <details>
 <summary>Detail Stack</summary>
 
+> a mix of stuff i'm actually using, stuff i'm still learning, and stuff i somehow ended up needing.
+
 <br>
 
 <img src="./stack-csharp.svg" width="100%" alt="C# detail">
 
-<p><strong>why:</strong> mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while actually building server stuff.<br>
-<strong>where:</strong> Terraria server tooling, plugins, and whatever .NET thing i end up touching next.</p>
+<p>TShock and ServerCore are what really pulled me into C#. i kept running into .NET stuff while working on server projects, so at some point learning the language became easier than constantly poking around it blindly.</p>
 
 <img src="./stack-java.svg" width="100%" alt="Java detail">
 
-<p><strong>why:</strong> a lot of the weird stuff i want to mess with runs on the JVM. i'm learning it by poking at Java apps, Android stuff, and the occasional <code>.jar</code> that refuses to cooperate.<br>
-<strong>where:</strong> JVM experiments, Android, game/app compatibility stuff.</p>
+<p>a lot of the weird stuff i want to mess with runs on the JVM. i'm learning Java by poking at apps, Android stuff, compatibility problems, and the occasional <code>.jar</code> that refuses to cooperate.</p>
 
 <img src="./stack-javascript.svg" width="100%" alt="JavaScript detail">
 
-<p><strong>why:</strong> mostly browser stuff. userscripts, PonyTown tools, Discord bots, and random web experiments whenever the browser gets in my way.<br>
-<strong>where:</strong> browser scripting, little tools, bots, and web experiments.</p>
+<p>most of my JavaScript stuff starts in the browser. userscripts, PonyTown tools, Discord bots, and random web experiments usually happen here whenever the browser gets in my way.</p>
 
 <img src="./stack-bash.svg" width="100%" alt="Bash detail">
 
-<p><strong>why:</strong> mostly Termux and automation. if i have to type the same command more than a few times, it probably deserves a script.<br>
-<strong>where:</strong> setup scripts, CLI tools, aliases, and random shell experiments.</p>
+<p>Bash mostly stuck because of Termux and automation. once i noticed how often i was repeating the same commands, writing a script started making a lot more sense than typing the same thing forever.</p>
 
 <img src="./stack-linux.svg" width="100%" alt="Linux detail">
 
-<p><strong>why:</strong> most of my system-level tinkering ends up here anyway. servers, Termux, development, random fixes, random new problems.<br>
-<strong>where:</strong> basically the environment behind most of the other stuff here.</p>
+<p>Linux is basically the environment behind a lot of the other stuff here. servers, Termux, development, system tinkering, random fixes, and occasionally creating a new problem while trying to fix the old one.</p>
 
 <img src="./stack-git.svg" width="100%" alt="Git detail">
 
-<p><strong>why:</strong> useful for keeping my projects from turning into a pile of random versions and forgotten changes.<br>
-<strong>where:</strong> pretty much everything i actually keep around.</p>
+<p>Git is mostly how i keep experiments from turning into a mess of random versions and forgotten changes. pretty much every project i care about ends up here sooner or later.</p>
 
 </details>
 
 <details>
 <summary>Detail Interests</summary>
+
+> most of these overlap anyway. that's kinda the point.
 
 <br>
 
