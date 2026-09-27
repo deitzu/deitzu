@@ -54,39 +54,32 @@
     <text x="356" y="136" fill="#bb9af7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">STACK</text>
 
     <!-- C# -->
-    <rect x="320" y="151" width="21" height="21" rx="4" fill="#7aa2f7"/>
-    <text x="330.5" y="166" text-anchor="middle" fill="#1a1b26" font-size="11" font-weight="900">C#</text>
+    <image href="https://cdn.simpleicons.org/csharp/7aa2f7" x="320" y="151" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="349" y="166" fill="#c0caf5" font-size="15" font-weight="700">C#</text>
     <text x="387" y="166" fill="#a9b1d6" font-size="11">ServerCore / .NET</text>
 
     <!-- Java -->
-    <path d="M330 184c-5 0-7 3-7 6 0 3 4 4 7 4s7-1 7-4c0-3-2-6-7-6z" fill="#bb9af7"/>
-    <path d="M326 178c4 2 5 4 2 6M334 177c3 3 3 5 0 7" fill="none" stroke="#bb9af7" stroke-width="1.6" stroke-linecap="round"/>
+    <image href="https://cdn.simpleicons.org/java/bb9af7" x="320" y="183" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="349" y="198" fill="#c0caf5" font-size="15" font-weight="700">Java</text>
     <text x="387" y="198" fill="#a9b1d6" font-size="11">JVM / Android</text>
 
     <!-- JavaScript -->
-    <rect x="320" y="212" width="21" height="21" rx="2" fill="#e0af68"/>
-    <text x="330.5" y="227" text-anchor="middle" fill="#1a1b26" font-size="9" font-weight="900">JS</text>
+    <image href="https://cdn.simpleicons.org/javascript/e0af68" x="320" y="212" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="349" y="227" fill="#c0caf5" font-size="15" font-weight="700">JavaScript</text>
     <text x="349" y="242" fill="#565f89" font-size="10">web / PonyTown / bots</text>
 
     <!-- Bash -->
-    <rect x="455" y="151" width="21" height="21" rx="4" fill="#7dcfff"/>
-    <text x="465.5" y="166" text-anchor="middle" fill="#1a1b26" font-size="10" font-weight="900">$_</text>
+    <image href="https://cdn.simpleicons.org/gnubash/7dcfff" x="455" y="151" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="484" y="166" fill="#c0caf5" font-size="15" font-weight="700">Bash</text>
     <text x="532" y="166" fill="#a9b1d6" font-size="11">Termux / automation</text>
 
     <!-- Git -->
-    <path d="M464 185l7 7-7 7-7-7 7-7zm0 4v7m-4-3h4m0 0h4" fill="none" stroke="#7aa2f7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="464" cy="185" r="1.8" fill="#7aa2f7"/><circle cx="457" cy="192" r="1.8" fill="#7aa2f7"/><circle cx="471" cy="192" r="1.8" fill="#7aa2f7"/><circle cx="464" cy="199" r="1.8" fill="#7aa2f7"/>
+    <image href="https://cdn.simpleicons.org/git/7aa2f7" x="455" y="183" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="484" y="198" fill="#c0caf5" font-size="15" font-weight="700">Git</text>
     <text x="532" y="198" fill="#a9b1d6" font-size="11">project history</text>
 
     <!-- Linux -->
-    <ellipse cx="465" cy="225" rx="8.5" ry="10" fill="#c0caf5"/>
-    <circle cx="462" cy="222" r="2" fill="#1a1b26"/><circle cx="468" cy="222" r="2" fill="#1a1b26"/>
-    <path d="M460 229h10l-2.5 3h-5z" fill="#e0af68"/>
+    <image href="https://cdn.simpleicons.org/linux/7dcfff" x="455" y="215" width="21" height="21" preserveAspectRatio="xMidYMid meet"/>
     <text x="484" y="231" fill="#c0caf5" font-size="15" font-weight="700">Linux</text>
     <text x="532" y="231" fill="#a9b1d6" font-size="11">servers / system stuff</text>
 
