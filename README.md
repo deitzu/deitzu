@@ -11,6 +11,7 @@
 
 <img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
 
+<img src="./stack.svg" width="100%" alt="Deitzu technology stack">
 
 <img src="./github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake">
 
