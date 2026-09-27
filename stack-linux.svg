@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="88" viewBox="0 0 1100 88" role="img" aria-label="Linux stack detail">
+  <rect width="1100" height="88" fill="#1a1b26"/>
+  <rect x="0" y="8" width="4" height="72" rx="2" fill="#7dcfff"/>
+  <image href="https://cdn.simpleicons.org/linux/7dcfff" x="34" y="20" width="42" height="42" preserveAspectRatio="xMidYMid meet"/>
+  <text x="94" y="43" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="22" font-weight="800">Linux</text>
+  <text x="94" y="64" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">servers / termux / system stuff</text>
+  <line x1="790" y1="22" x2="1060" y2="22" stroke="#7dcfff" stroke-width="2" opacity=".7"/>
+  <line x1="915" y1="66" x2="1060" y2="66" stroke="#3b4261" stroke-width="2"/>
+</svg>
