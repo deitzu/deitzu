@@ -9,11 +9,11 @@
 <img src="https://github-readme-stats-fast.vercel.app/api?username=deitzu&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" height="165" alt="Deitzu's GitHub stats">
 <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=deitzu&layout=compact&hide_border=true&theme=tokyonight" height="165" alt="Deitzu's top languages">
 
-<img src="https://skillicons.dev/icons?i=cs,java,js,bash,git,linux" height="48" alt="C# · Java · JavaScript · Bash · Git · Linux">
-
 <img src="./github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake">
 
-### Links
+<img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
+
+<img src="./stack.svg" width="100%" alt="Deitzu technology stack">
 
 <a href="https://terraria-servers.com/server/5615/"><img src="./terraria.svg" height="44" alt="Terraria Server · Darynxia"></a>&nbsp;
 <a href="https://discord.gg/t5rjCeP399"><img src="./discord-server.svg" height="44" alt="Discord Server"></a>&nbsp;
