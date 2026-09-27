@@ -95,63 +95,63 @@
     <rect x="320" y="286" width="345" height="3" rx="1.5" fill="#bb9af7"/>
 
     <!-- Currently -->
-    <svg x="710" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+    <svg x="670" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.5" fill="none" stroke="#7dcfff" stroke-width="1.8"/>
       <path d="M12 7v5l3 2" fill="none" stroke="#7dcfff" stroke-width="1.8" stroke-linecap="round"/>
     </svg>
-    <text x="746" y="136" fill="#7dcfff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
+    <text x="706" y="136" fill="#7dcfff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
 
-    <svg x="688" y="151" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    <text x="712" y="165" fill="#c0caf5" font-size="18">learning Java</text>
-    <svg x="688" y="184" width="16" height="16" viewBox="0 0 24 24"><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9z" fill="none" stroke="#7dcfff" stroke-width="1.6"/></svg>
-    <text x="712" y="198" fill="#c0caf5" font-size="18">exploring networking</text>
-    <svg x="688" y="217" width="16" height="16" viewBox="0 0 24 24"><path d="m12 3 7 7-7 11-7-11 7-7zM8 10h8" fill="none" stroke="#7dcfff" stroke-width="1.6" stroke-linejoin="round"/></svg>
-    <text x="712" y="231" fill="#c0caf5" font-size="18">building Darynxia</text>
-    <svg x="688" y="250" width="16" height="16" viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 0 7 7M12 5v4l3 2" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round"/></svg>
-    <text x="712" y="264" fill="#c0caf5" font-size="18">tinkering with Termux</text>
+    <svg x="650" y="151" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="676" y="165" fill="#c0caf5" font-size="16">learning Java</text>
+    <svg x="650" y="184" width="16" height="16" viewBox="0 0 24 24"><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9z" fill="none" stroke="#7dcfff" stroke-width="1.6"/></svg>
+    <text x="676" y="198" fill="#c0caf5" font-size="16">exploring networking</text>
+    <svg x="650" y="217" width="16" height="16" viewBox="0 0 24 24"><path d="m12 3 7 7-7 11-7-11 7-7zM8 10h8" fill="none" stroke="#7dcfff" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    <text x="676" y="231" fill="#c0caf5" font-size="16">building Darynxia</text>
+    <svg x="650" y="250" width="16" height="16" viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 0 7 7M12 5v4l3 2" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <text x="676" y="264" fill="#c0caf5" font-size="16">tinkering with Termux</text>
 
     <!-- GitHub Stats -->
-    <svg x="835" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+    <svg x="860" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
       <path d="M5 18V9M12 18V5M19 18v-7" stroke="#e0af68" stroke-width="2" stroke-linecap="round"/>
       <path d="M3 19h18" stroke="#e0af68" stroke-width="1.5" stroke-linecap="round"/>
     </svg>
-    <text x="871" y="136" fill="#e0af68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">GITHUB STATS</text>
+    <text x="896" y="136" fill="#e0af68" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">GITHUB STATS</text>
 
     <g>
-      <rect x="835" y="149" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
-      <svg x="848" y="158" width="14" height="14" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3z" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linejoin="round"/></svg>
-      <text x="870" y="170" fill="#a9b1d6" font-size="11">STARS</text>
-      <text x="850" y="197" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">3</text>
+      <rect x="860" y="149" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
+      <svg x="873" y="158" width="14" height="14" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3z" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <text x="895" y="170" fill="#a9b1d6" font-size="11">STARS</text>
+      <text x="875" y="197" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">3</text>
     </g>
 
     <g>
-      <rect x="952" y="149" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
-      <svg x="965" y="158" width="14" height="14" viewBox="0 0 24 24"><path d="M7 4v7h10V4M7 11l-3 4m13-4 3 4M12 11v8" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <text x="987" y="170" fill="#a9b1d6" font-size="11">COMMITS</text>
-      <text x="967" y="197" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">426</text>
+      <rect x="977" y="149" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
+      <svg x="990" y="158" width="14" height="14" viewBox="0 0 24 24"><path d="M7 4v7h10V4M7 11l-3 4m13-4 3 4M12 11v8" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <text x="1012" y="170" fill="#a9b1d6" font-size="11">COMMITS</text>
+      <text x="992" y="197" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">426</text>
     </g>
 
     <g>
-      <rect x="835" y="212" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
-      <svg x="848" y="221" width="14" height="14" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2" fill="none" stroke="#e0af68" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#e0af68" stroke-width="1.4" stroke-linecap="round"/></svg>
-      <text x="870" y="233" fill="#a9b1d6" font-size="11">REPOS</text>
-      <text x="850" y="260" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">9</text>
+      <rect x="860" y="212" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
+      <svg x="873" y="221" width="14" height="14" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2" fill="none" stroke="#e0af68" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="#e0af68" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <text x="895" y="233" fill="#a9b1d6" font-size="11">REPOS</text>
+      <text x="875" y="260" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">9</text>
     </g>
 
     <g>
-      <rect x="952" y="212" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
-      <svg x="965" y="221" width="14" height="14" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="none" stroke="#e0af68" stroke-width="1.6"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round"/></svg>
-      <text x="987" y="233" fill="#a9b1d6" font-size="11">FOLLOWERS</text>
-      <text x="967" y="260" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">9</text>
+      <rect x="977" y="212" width="105" height="55" rx="8" fill="#16161e" stroke="#3b4261"/>
+      <svg x="990" y="221" width="14" height="14" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="none" stroke="#e0af68" stroke-width="1.6"/><path d="M5 20c1-4 4-6 7-6s6 2 7 6" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <text x="1012" y="233" fill="#a9b1d6" font-size="11">FOLLOWERS</text>
+      <text x="992" y="260" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21" font-weight="750">9</text>
     </g>
 
-    <rect x="835" y="275" width="105" height="24" rx="6" fill="#16161e" stroke="#3b4261"/>
-    <svg x="847" y="280" width="12" height="12" viewBox="0 0 24 24"><path d="M8 7a4 4 0 0 1 6 0l2 2a4 4 0 0 1-6 6l-2-2a4 4 0 0 1-6-6" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round"/></svg>
-    <text x="864" y="292" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">FORKS <tspan fill="#c0caf5">1</tspan></text>
+    <rect x="860" y="275" width="105" height="24" rx="6" fill="#16161e" stroke="#3b4261"/>
+    <svg x="872" y="280" width="12" height="12" viewBox="0 0 24 24"><path d="M8 7a4 4 0 0 1 6 0l2 2a4 4 0 0 1-6 6l-2-2a4 4 0 0 1-6-6" fill="none" stroke="#e0af68" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <text x="889" y="292" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">FORKS <tspan fill="#c0caf5">1</tspan></text>
 
-    <rect x="952" y="275" width="105" height="24" rx="6" fill="#16161e" stroke="#3b4261"/>
-    <svg x="964" y="280" width="12" height="12" viewBox="0 0 24 24"><path d="M7 5h10v14H7zM10 9h4M10 13h4" fill="none" stroke="#e0af68" stroke-width="1.5" stroke-linecap="round"/></svg>
-    <text x="981" y="292" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">PRs <tspan fill="#c0caf5">3</tspan></text>
+    <rect x="977" y="275" width="105" height="24" rx="6" fill="#16161e" stroke="#3b4261"/>
+    <svg x="989" y="280" width="12" height="12" viewBox="0 0 24 24"><path d="M7 5h10v14H7zM10 9h4M10 13h4" fill="none" stroke="#e0af68" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <text x="1006" y="292" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10">PRs <tspan fill="#c0caf5">3</tspan></text>
 
     <line x1="34" y1="314" x2="1066" y2="314" stroke="#3b4261"/>
 
