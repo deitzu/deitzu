@@ -57,16 +57,20 @@
 
 <br>
 
-<h4>Game servers</h4>
+<img src="./interest-game-servers.svg" width="100%" alt="Game servers interest">
+
 <p>i got way more interested in the server side of games than actually making the games themselves. i like running them, messing with configs and plugins, fixing random compatibility problems, and figuring out why something suddenly decided to explode at 3am.</p>
 
-<h4>Linux / Termux</h4>
+<img src="./interest-linux-termux.svg" width="100%" alt="Linux and Termux interest">
+
 <p>probably one of the biggest reasons i ended up messing with so much other stuff. i've been using Linux and Termux for around 2–3 years now, mostly self-taught and mostly by breaking things first and figuring them out later.</p>
 
-<h4>Networking</h4>
+<img src="./interest-networking.svg" width="100%" alt="Networking interest">
+
 <p>i'm studying this at school anyway, but i also ended up genuinely liking it. i like figuring out how things actually connect, what happens between two machines, and why something that should be working suddenly isn't.</p>
 
-<h4>Network security</h4>
+<img src="./interest-network-security.svg" width="100%" alt="Network security interest">
+
 <p>this mostly came from getting more interested in what happens around networks instead of security as one giant topic. ports, firewalls, exposed services, traffic, that kinda stuff.</p>
 
 </details>
