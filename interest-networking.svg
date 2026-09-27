@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="96" viewBox="0 0 1100 96" role="img" aria-label="Networking interest">
   <rect width="1100" height="96" fill="#1a1b26"/>
   <rect x="0" y="8" width="4" height="80" rx="2" fill="#bb9af7"/>
-  <image href="./assets/network.svg" x="34" y="24" width="48" height="48" preserveAspectRatio="xMidYMid meet"/>
+  <svg x="34" y="24" width="48" height="48" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h5l3-7 4 14 3-7h3" fill="none" stroke="#bb9af7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
   <text x="98" y="45" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="22" font-weight="800">Networking</text>
   <text x="98" y="68" fill="#a9b1d6" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">protocols / services / troubleshooting / infrastructure</text>
   <rect x="790" y="24" width="276" height="2" fill="#bb9af7" opacity=".65"/>
