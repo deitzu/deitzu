@@ -17,33 +17,35 @@
 
 <img src="./stack-csharp.svg" width="100%" alt="C# detail">
 
-**C#**  
-mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while building server stuff.
+**why:** mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while actually building server stuff.  
+**where:** Terraria server tooling, plugins, and whatever .NET thing i end up touching next.
 
 <img src="./stack-java.svg" width="100%" alt="Java detail">
 
-**Java**  
-learned this because apparently a lot of the weird stuff i want to mess with runs on the JVM. currently using it for JVM experiments, Android stuff, and trying to understand Java apps instead of just running the `.jar`.
+**why:** a lot of the weird stuff i want to mess with runs on the JVM. i'm learning it by poking at Java apps, Android stuff, and the occasional `.jar` that refuses to cooperate.  
+**where:** JVM experiments, Android, game/app compatibility stuff.
 
 <img src="./stack-javascript.svg" width="100%" alt="JavaScript detail">
 
-**JavaScript**  
-browser stuff, userscripts, Discord bots, random web experiments. basically the language i keep touching whenever a browser gets in my way.
+**why:** mostly browser stuff. userscripts, PonyTown tools, Discord bots, and random web experiments whenever the browser gets in my way.  
+**where:** browser scripting, little tools, bots, and web experiments.
 
 <img src="./stack-bash.svg" width="100%" alt="Bash detail">
 
-**Bash**  
-mostly for Termux, automation, setup scripts, and turning repetitive commands into one command so i don't have to type them again.
+**why:** mostly Termux and automation. if i have to type the same command more than a few times, it probably deserves a script.  
+**where:** setup scripts, CLI tools, aliases, and random shell experiments.
 
 <img src="./stack-linux.svg" width="100%" alt="Linux detail">
 
-**Linux**  
-mostly where i mess around with servers, Termux, and random system stuff.
+**why:** most of my system-level tinkering ends up here anyway. servers, Termux, development, random fixes, random new problems.  
+**where:** basically the environment behind most of the other stuff here.
 
 <img src="./stack-git.svg" width="100%" alt="Git detail">
 
-**Git**  
-useful for keeping my projects from turning into a pile of random versions and forgotten changes.
+**why:** useful for keeping projects from turning into a pile of random versions and forgotten changes. basically the undo button for experiments.  
+**where:** pretty much everything i actually keep around.
+
+<!-- Brand icons in the SVGs use Font Awesome Free 6.7.2, licensed under CC BY 4.0. -->
 
 <img src="./github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake">
 
