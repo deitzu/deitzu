@@ -2,9 +2,6 @@ name: Update profile stats
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/profile-template.svg"
   schedule:
     - cron: "2/5 * * * *"
 
@@ -30,21 +27,21 @@ jobs:
           followers="$(jq -r '.followers' <<< "$user_json")"
 
           stars="$(
-            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].stargazers_count' |
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated' --jq '.[].stargazers_count' |
               awk '{sum += $1} END {print sum + 0}'
           )"
 
           forks="$(
-            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated'               --jq '.[].forks_count' |
+            gh api --paginate 'users/deitzu/repos?per_page=100&type=owner&sort=updated' --jq '.[].forks_count' |
               awk '{sum += $1} END {print sum + 0}'
           )"
 
           commits="$(
-            gh api 'search/commits?q=author%3Adeitzu&per_page=1'               --jq '.total_count'
+            gh api 'search/commits?q=author%3Adeitzu&per_page=1' --jq '.total_count'
           )"
 
           prs="$(
-            gh api 'search/issues?q=author%3Adeitzu+type%3Apr&per_page=1'               --jq '.total_count'
+            gh api 'search/issues?q=author%3Adeitzu+type%3Apr&per_page=1' --jq '.total_count'
           )"
 
           updated="$(date -u '+%Y-%m-%d %H:%M UTC')"
@@ -58,27 +55,28 @@ jobs:
           PRS="$prs"
           UPDATED="$updated"
 
-          cp .github/profile-template.svg profile.svg
-
           python - <<'PY'
           from pathlib import Path
           import os
+          import re
 
           path = Path("profile.svg")
           text = path.read_text(encoding="utf-8")
 
-          values = {
-              "__STARS__": os.environ["STARS"],
-              "__COMMITS__": os.environ["COMMITS"],
-              "__REPOS__": os.environ["REPOS"],
-              "__FOLLOWERS__": os.environ["FOLLOWERS"],
-              "__FORKS__": os.environ["FORKS"],
-              "__PRS__": os.environ["PRS"],
-              "__UPDATED__": os.environ["UPDATED"],
+          replacements = {
+              r'(<text x="875" y="197"[^>]*>)[^<]*(</text>)': os.environ["STARS"],
+              r'(<text x="992" y="197"[^>]*>)[^<]*(</text>)': os.environ["COMMITS"],
+              r'(<text x="875" y="260"[^>]*>)[^<]*(</text>)': os.environ["REPOS"],
+              r'(<text x="992" y="260"[^>]*>)[^<]*(</text>)': os.environ["FOLLOWERS"],
+              r'(<text x="889" y="292"[^>]*>FORKS <tspan[^>]*>)[^<]*(</tspan></text>)': os.environ["FORKS"],
+              r'(<text x="1006" y="292"[^>]*>PRs <tspan[^>]*>)[^<]*(</tspan></text>)': os.environ["PRS"],
+              r'(<text x="885" y="340"[^>]*>)[^<]*(</text>)': os.environ["UPDATED"],
           }
 
-          for old, new in values.items():
-              text = text.replace(old, new)
+          for pattern, value in replacements.items():
+              text, count = re.subn(pattern, lambda m: m.group(1) + value + m.group(2), text, count=1)
+              if count != 1:
+                  raise SystemExit(f"Expected exactly one SVG stat target, got {count}: {pattern}")
 
           path.write_text(text, encoding="utf-8")
           PY
