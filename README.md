@@ -11,39 +11,72 @@
 
 <img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
 
-### Detail Stack
+<table>
+<tr>
+<td valign="top" width="50%">
 
-> things i'm learning because i keep running into them. some are actually useful, some just kinda happened.
+<details>
+<summary>Detail Interests</summary>
+
+<br>
+
+<h4>Game servers</h4>
+<p>i like the whole server side of games more than actually making the game itself. running them, tweaking them, fixing weird issues, and seeing how everything talks to everything else.</p>
+
+<h4>Linux / Termux</h4>
+<p>mostly where i mess around with servers, system stuff, CLI tools, and random experiments that probably started with one harmless command.</p>
+
+<h4>Networking</h4>
+<p>this one lines up with what i'm actually studying. protocols, ports, routing, DNS, fiber, and generally figuring out why two machines refuse to talk to each other.</p>
+
+<h4>Network security</h4>
+<p>more interested in the network side of security than trying to cover every security topic ever invented. mostly the practical side of keeping services and traffic under control.</p>
+
+</details>
+
+</td>
+<td valign="top" width="50%">
+
+<details>
+<summary>Detail Stack</summary>
+
+<br>
 
 <img src="./stack-csharp.svg" width="100%" alt="C# detail">
 
-**why:** mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while actually building server stuff.  
-**where:** Terraria server tooling, plugins, and whatever .NET thing i end up touching next.
+<p><strong>why:</strong> mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while actually building server stuff.<br>
+<strong>where:</strong> Terraria server tooling, plugins, and whatever .NET thing i end up touching next.</p>
 
 <img src="./stack-java.svg" width="100%" alt="Java detail">
 
-**why:** a lot of the weird stuff i want to mess with runs on the JVM. i'm learning it by poking at Java apps, Android stuff, and the occasional `.jar` that refuses to cooperate.  
-**where:** JVM experiments, Android, game/app compatibility stuff.
+<p><strong>why:</strong> a lot of the weird stuff i want to mess with runs on the JVM. i'm learning it by poking at Java apps, Android stuff, and the occasional <code>.jar</code> that refuses to cooperate.<br>
+<strong>where:</strong> JVM experiments, Android, game/app compatibility stuff.</p>
 
 <img src="./stack-javascript.svg" width="100%" alt="JavaScript detail">
 
-**why:** mostly browser stuff. userscripts, PonyTown tools, Discord bots, and random web experiments whenever the browser gets in my way.  
-**where:** browser scripting, little tools, bots, and web experiments.
+<p><strong>why:</strong> mostly browser stuff. userscripts, PonyTown tools, Discord bots, and random web experiments whenever the browser gets in my way.<br>
+<strong>where:</strong> browser scripting, little tools, bots, and web experiments.</p>
 
 <img src="./stack-bash.svg" width="100%" alt="Bash detail">
 
-**why:** mostly Termux and automation. if i have to type the same command more than a few times, it probably deserves a script.  
-**where:** setup scripts, CLI tools, aliases, and random shell experiments.
+<p><strong>why:</strong> mostly Termux and automation. if i have to type the same command more than a few times, it probably deserves a script.<br>
+<strong>where:</strong> setup scripts, CLI tools, aliases, and random shell experiments.</p>
 
 <img src="./stack-linux.svg" width="100%" alt="Linux detail">
 
-**why:** most of my system-level tinkering ends up here anyway. servers, Termux, development, random fixes, random new problems.  
-**where:** basically the environment behind most of the other stuff here.
+<p><strong>why:</strong> most of my system-level tinkering ends up here anyway. servers, Termux, development, random fixes, random new problems.<br>
+<strong>where:</strong> basically the environment behind most of the other stuff here.</p>
 
 <img src="./stack-git.svg" width="100%" alt="Git detail">
 
-**why:** useful for keeping projects from turning into a pile of random versions and forgotten changes. basically the undo button for experiments.  
-**where:** pretty much everything i actually keep around.
+<p><strong>why:</strong> useful for keeping my projects from turning into a pile of random versions and forgotten changes.<br>
+<strong>where:</strong> pretty much everything i actually keep around.</p>
+
+</details>
+
+</td>
+</tr>
+</table>
 
 <!-- Brand icons in the SVGs use Font Awesome Free 6.7.2, licensed under CC BY 4.0. -->
 
