@@ -36,14 +36,14 @@
     </svg>
     <text x="70" y="136" fill="#7aa2f7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">INTERESTS</text>
 
-    <svg x="34" y="151" width="18" height="18" viewBox="0 0 24 24"><path d="M4 15c2-6 14-6 16 0M7 15v4M17 15v4M9 8h6M8 5l2-2M16 5l-2-2" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    <text x="61" y="166" fill="#c0caf5" font-size="19">game servers</text>
-    <svg x="34" y="185" width="18" height="18" viewBox="0 0 24 24"><path d="M12 3 4 7l8 4 8-4-8-4zm-8 9 8 4 8-4M4 16l8 5 8-5" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linejoin="round"/></svg>
-    <text x="61" y="200" fill="#c0caf5" font-size="19">linux / termux</text>
-    <svg x="34" y="219" width="18" height="18" viewBox="0 0 24 24"><path d="M3 12h5l3-7 4 14 3-7h3" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    <text x="61" y="234" fill="#c0caf5" font-size="19">networking</text>
-    <svg x="34" y="253" width="18" height="18" viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4z" fill="none" stroke="#7aa2f7" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 12h3l2-3 2 3h2" fill="none" stroke="#7aa2f7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    <text x="61" y="268" fill="#c0caf5" font-size="19">network security</text>
+    <svg x="58" y="151" width="16" height="16" viewBox="0 0 24 24"><path d="M4 15c2-6 14-6 16 0M7 15v4M17 15v4M9 8h6M8 5l2-2M16 5l-2-2" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="82" y="165" fill="#c0caf5" font-size="18">game servers</text>
+    <svg x="58" y="184" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3 4 7l8 4 8-4-8-4zm-8 9 8 4 8-4M4 16l8 5 8-5" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linejoin="round"/></svg>
+    <text x="82" y="198" fill="#c0caf5" font-size="18">linux / termux</text>
+    <svg x="58" y="217" width="16" height="16" viewBox="0 0 24 24"><path d="M3 12h5l3-7 4 14 3-7h3" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="82" y="231" fill="#c0caf5" font-size="18">networking</text>
+    <svg x="58" y="250" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4z" fill="none" stroke="#7aa2f7" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 12h3l2-3 2 3h2" fill="none" stroke="#7aa2f7" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <text x="82" y="264" fill="#c0caf5" font-size="18">network security</text>
 
     <line x1="285" y1="122" x2="285" y2="298" stroke="#292e42"/>
 
@@ -53,37 +53,62 @@
     </svg>
     <text x="356" y="136" fill="#bb9af7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">STACK</text>
 
-    <text x="320" y="164" fill="#c0caf5" font-size="16" font-weight="700">C#</text>
-    <text x="370" y="164" fill="#a9b1d6" font-size="12">ServerCore / .NET</text>
+    <!-- C# -->
+    <rect x="320" y="151" width="21" height="21" rx="4" fill="#7aa2f7"/>
+    <text x="330.5" y="166" text-anchor="middle" fill="#1a1b26" font-size="11" font-weight="900">C#</text>
+    <text x="349" y="166" fill="#c0caf5" font-size="15" font-weight="700">C#</text>
+    <text x="387" y="166" fill="#a9b1d6" font-size="11">ServerCore / .NET</text>
 
-    <text x="320" y="196" fill="#c0caf5" font-size="16" font-weight="700">Java</text>
-    <text x="370" y="196" fill="#a9b1d6" font-size="12">JVM / Android</text>
+    <!-- Java -->
+    <path d="M330 184c-5 0-7 3-7 6 0 3 4 4 7 4s7-1 7-4c0-3-2-6-7-6z" fill="#bb9af7"/>
+    <path d="M326 178c4 2 5 4 2 6M334 177c3 3 3 5 0 7" fill="none" stroke="#bb9af7" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="349" y="198" fill="#c0caf5" font-size="15" font-weight="700">Java</text>
+    <text x="387" y="198" fill="#a9b1d6" font-size="11">JVM / Android</text>
 
-    <text x="320" y="228" fill="#c0caf5" font-size="16" font-weight="700">JavaScript</text>
-    <text x="320" y="244" fill="#565f89" font-size="11">web / PonyTown / bots</text>
+    <!-- JavaScript -->
+    <rect x="320" y="212" width="21" height="21" rx="2" fill="#e0af68"/>
+    <text x="330.5" y="227" text-anchor="middle" fill="#1a1b26" font-size="9" font-weight="900">JS</text>
+    <text x="349" y="227" fill="#c0caf5" font-size="15" font-weight="700">JavaScript</text>
+    <text x="349" y="242" fill="#565f89" font-size="10">web / PonyTown / bots</text>
 
-    <text x="320" y="274" fill="#c0caf5" font-size="16" font-weight="700">Bash</text>
-    <text x="370" y="274" fill="#a9b1d6" font-size="12">Termux / automation</text>
+    <!-- Bash -->
+    <rect x="455" y="151" width="21" height="21" rx="4" fill="#7dcfff"/>
+    <text x="465.5" y="166" text-anchor="middle" fill="#1a1b26" font-size="10" font-weight="900">$_</text>
+    <text x="484" y="166" fill="#c0caf5" font-size="15" font-weight="700">Bash</text>
+    <text x="532" y="166" fill="#a9b1d6" font-size="11">Termux / automation</text>
 
-    <text x="320" y="298" fill="#565f89" font-size="11">Git · Linux · version control + environment</text>
+    <!-- Git -->
+    <path d="M464 185l7 7-7 7-7-7 7-7zm0 4v7m-4-3h4m0 0h4" fill="none" stroke="#7aa2f7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="464" cy="185" r="1.8" fill="#7aa2f7"/><circle cx="457" cy="192" r="1.8" fill="#7aa2f7"/><circle cx="471" cy="192" r="1.8" fill="#7aa2f7"/><circle cx="464" cy="199" r="1.8" fill="#7aa2f7"/>
+    <text x="484" y="198" fill="#c0caf5" font-size="15" font-weight="700">Git</text>
+    <text x="532" y="198" fill="#a9b1d6" font-size="11">project history</text>
+
+    <!-- Linux -->
+    <ellipse cx="465" cy="225" rx="8.5" ry="10" fill="#c0caf5"/>
+    <circle cx="462" cy="222" r="2" fill="#1a1b26"/><circle cx="468" cy="222" r="2" fill="#1a1b26"/>
+    <path d="M460 229h10l-2.5 3h-5z" fill="#e0af68"/>
+    <text x="484" y="231" fill="#c0caf5" font-size="15" font-weight="700">Linux</text>
+    <text x="532" y="231" fill="#a9b1d6" font-size="11">servers / system stuff</text>
+
+    <!-- stack footer -->
+    <text x="320" y="270" fill="#565f89" font-size="10">tools i keep running into because apparently one language isn't enough</text>
+    <rect x="320" y="286" width="345" height="3" rx="1.5" fill="#bb9af7"/>
 
     <!-- Currently -->
-    <svg x="580" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+    <svg x="710" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.5" fill="none" stroke="#7dcfff" stroke-width="1.8"/>
       <path d="M12 7v5l3 2" fill="none" stroke="#7dcfff" stroke-width="1.8" stroke-linecap="round"/>
     </svg>
-    <text x="616" y="136" fill="#7dcfff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
+    <text x="746" y="136" fill="#7dcfff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">CURRENTLY</text>
 
-    <svg x="580" y="151" width="18" height="18" viewBox="0 0 24 24"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    <text x="607" y="166" fill="#c0caf5" font-size="19">learning Java</text>
-    <svg x="580" y="185" width="18" height="18" viewBox="0 0 24 24"><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9z" fill="none" stroke="#7dcfff" stroke-width="1.6"/></svg>
-    <text x="607" y="200" fill="#c0caf5" font-size="19">exploring networking</text>
-    <svg x="580" y="219" width="18" height="18" viewBox="0 0 24 24"><path d="m12 3 7 7-7 11-7-11 7-7zM8 10h8" fill="none" stroke="#7dcfff" stroke-width="1.6" stroke-linejoin="round"/></svg>
-    <text x="607" y="234" fill="#c0caf5" font-size="19">building Darynxia</text>
-    <svg x="580" y="253" width="18" height="18" viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 0 7 7M12 5v4l3 2" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round"/></svg>
-    <text x="607" y="268" fill="#c0caf5" font-size="19">tinkering with Termux</text>
-
-    <line x1="800" y1="122" x2="800" y2="298" stroke="#292e42"/>
+    <svg x="688" y="151" width="16" height="16" viewBox="0 0 24 24"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <text x="712" y="165" fill="#c0caf5" font-size="18">learning Java</text>
+    <svg x="688" y="184" width="16" height="16" viewBox="0 0 24 24"><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9z" fill="none" stroke="#7dcfff" stroke-width="1.6"/></svg>
+    <text x="712" y="198" fill="#c0caf5" font-size="18">exploring networking</text>
+    <svg x="688" y="217" width="16" height="16" viewBox="0 0 24 24"><path d="m12 3 7 7-7 11-7-11 7-7zM8 10h8" fill="none" stroke="#7dcfff" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    <text x="712" y="231" fill="#c0caf5" font-size="18">building Darynxia</text>
+    <svg x="688" y="250" width="16" height="16" viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 0 7 7M12 5v4l3 2" fill="none" stroke="#7dcfff" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <text x="712" y="264" fill="#c0caf5" font-size="18">tinkering with Termux</text>
 
     <!-- GitHub Stats -->
     <svg x="835" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
