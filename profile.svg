@@ -53,18 +53,19 @@
     </svg>
     <text x="356" y="136" fill="#bb9af7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="800" letter-spacing="1">STACK</text>
 
-    <svg x="320" y="151" width="18" height="18" viewBox="0 0 24 24"><path d="m12 3 8 4-8 4-8-4 8-4z" fill="none" stroke="#bb9af7" stroke-width="1.6"/><path d="M8 14a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM16 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM9 15l6-6" fill="none" stroke="#bb9af7" stroke-width="1.5"/></svg>
-    <text x="347" y="166" fill="#c0caf5" font-size="19">C#</text>
-    <svg x="320" y="185" width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="#bb9af7" stroke-width="1.7"/><path d="M7 9h10M7 13h10M9 17h6" stroke="#bb9af7" stroke-width="1.5" stroke-linecap="round"/></svg>
-    <text x="347" y="200" fill="#c0caf5" font-size="19">Java</text>
-    <svg x="320" y="219" width="18" height="18" viewBox="0 0 24 24"><path d="M6 5h12v14H6zM9 9l2 2-2 2m4 2h2" fill="none" stroke="#bb9af7" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></svg>
-    <text x="347" y="234" fill="#c0caf5" font-size="19">JavaScript</text>
-    <svg x="320" y="253" width="18" height="18" viewBox="0 0 24 24">
-      <path d="M4 6h16M4 12h16M4 18h16M8 3v6M16 9v6M8 15v6" fill="none" stroke="#bb9af7" stroke-width="1.6" stroke-linecap="round"/>
-    </svg>
-    <text x="347" y="268" fill="#c0caf5" font-size="19">Bash · Git · Linux</text>
+    <text x="320" y="164" fill="#c0caf5" font-size="16" font-weight="700">C#</text>
+    <text x="370" y="164" fill="#a9b1d6" font-size="12">ServerCore / .NET</text>
 
-    <line x1="545" y1="122" x2="545" y2="298" stroke="#292e42"/>
+    <text x="320" y="196" fill="#c0caf5" font-size="16" font-weight="700">Java</text>
+    <text x="370" y="196" fill="#a9b1d6" font-size="12">JVM / Android</text>
+
+    <text x="320" y="228" fill="#c0caf5" font-size="16" font-weight="700">JavaScript</text>
+    <text x="320" y="244" fill="#565f89" font-size="11">web / PonyTown / bots</text>
+
+    <text x="320" y="274" fill="#c0caf5" font-size="16" font-weight="700">Bash</text>
+    <text x="370" y="274" fill="#a9b1d6" font-size="12">Termux / automation</text>
+
+    <text x="320" y="298" fill="#565f89" font-size="11">Git · Linux · version control + environment</text>
 
     <!-- Currently -->
     <svg x="580" y="118" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
