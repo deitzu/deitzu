@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="44" viewBox="0 0 180 44" role="img" aria-label="Terraria Server · Darynxia">
-  <g transform="translate(4 10)">
+  <rect x="0" y="4" width="3" height="36" rx="1.5" fill="#7aa2f7"/>
+  <g transform="translate(16 10)">
     <path d="M10 0 19 9 10 19 1 10 10 1z" fill="none" stroke="#7aa2f7" stroke-width="1.7" stroke-linejoin="round"/>
     <path d="M6.5 10h7M10 6.5v7" stroke="#c0caf5" stroke-width="1.5" stroke-linecap="round"/>
   </g>
-  <text x="35" y="18" fill="#7aa2f7" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".7">TERRARIA SERVER</text>
-  <text x="35" y="35" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="700">Darynxia</text>
+  <text x="47" y="18" fill="#7aa2f7" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing=".7">TERRARIA SERVER</text>
+  <text x="47" y="35" fill="#c0caf5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="700">Darynxia</text>
 </svg>
