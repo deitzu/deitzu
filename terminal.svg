@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180" viewBox="0 0 1100 180" role="img" aria-label="Deitzu project terminal">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180" viewBox="0 0 1100 180" role="img" aria-label="Deitzu public projects terminal">
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#7aa2f7"/>
@@ -14,14 +14,16 @@
     <text x="225" y="42" fill="#c0caf5" font-size="17">ls ~/projects</text>
     <rect x="34" y="57" width="1032" height="1" fill="#292e42"/>
 
-    <text x="34" y="92" fill="#bb9af7" font-size="16">mini-browser/</text>
-    <text x="218" y="92" fill="#7dcfff" font-size="16">mindustry/</text>
-    <text x="374" y="92" fill="#e0af68" font-size="16">tgui-browser/</text>
+    <text x="34" y="92" fill="#bb9af7" font-size="16">ponytown-local-music-player/</text>
+    <text x="360" y="92" fill="#7dcfff" font-size="16">termux-dotfiles/</text>
+    <text x="530" y="92" fill="#e0af68" font-size="16">termux-music-player/</text>
 
-    <text x="34" y="123" fill="#565f89" font-size="14">deitzu@github:~$</text>
-    <text x="210" y="123" fill="#c0caf5" font-size="14">git status --short</text>
-    <text x="34" y="151" fill="#a9b1d6" font-size="15">experiments everywhere, documentation optional</text>
+    <text x="34" y="121" fill="#7aa2f7" font-size="16">utility-discord-bot/</text>
+    <text x="270" y="121" fill="#bb9af7" font-size="16">ServerCore/</text>
+    <text x="430" y="121" fill="#7dcfff" font-size="16">Discord-Online-Forever/</text>
 
-    <text x="1066" y="166" fill="#565f89" font-size="13" text-anchor="end">~/projects</text>
+    <text x="34" y="153" fill="#565f89" font-size="14">deitzu@github:~$</text>
+    <text x="210" y="153" fill="#c0caf5" font-size="14">git status --short</text>
+    <text x="1066" y="169" fill="#565f89" font-size="13" text-anchor="end">public only</text>
   </g>
 </svg>
