@@ -11,7 +11,39 @@
 
 <img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
 
-<img src="./stack.svg" width="100%" alt="Deitzu technology stack">
+### Detail Stack
+
+> things i'm learning because i keep running into them. some are actually useful, some just kinda happened.
+
+<img src="./stack-csharp.svg" width="100%" alt="C# detail">
+
+**C#**  
+mostly because TShock and ServerCore dragged me into .NET. now i'm learning the ecosystem while building server stuff.
+
+<img src="./stack-java.svg" width="100%" alt="Java detail">
+
+**Java**  
+learned this because apparently a lot of the weird stuff i want to mess with runs on the JVM. currently using it for JVM experiments, Android stuff, and trying to understand Java apps instead of just running the `.jar`.
+
+<img src="./stack-javascript.svg" width="100%" alt="JavaScript detail">
+
+**JavaScript**  
+browser stuff, userscripts, Discord bots, random web experiments. basically the language i keep touching whenever a browser gets in my way.
+
+<img src="./stack-bash.svg" width="100%" alt="Bash detail">
+
+**Bash**  
+mostly for Termux, automation, setup scripts, and turning repetitive commands into one command so i don't have to type them again.
+
+<img src="./stack-linux.svg" width="100%" alt="Linux detail">
+
+**Linux**  
+mostly where i mess around with servers, Termux, and random system stuff.
+
+<img src="./stack-git.svg" width="100%" alt="Git detail">
+
+**Git**  
+useful for keeping my projects from turning into a pile of random versions and forgotten changes.
 
 <img src="./github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake">
 
