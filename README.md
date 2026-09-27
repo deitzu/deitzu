@@ -1,7 +1,26 @@
+### Hello There 👋
+> a random network student learning how to code
+
+<details>
+<summary>More about me</summary>
+
 <img src="./profile.svg" width="100%" alt="Deitzu profile">
+
+### Links
 
 <a href="https://terraria-servers.com/server/5615/"><img src="./terraria.svg" height="44" alt="Terraria Server · Darynxia"></a>&nbsp;
 <a href="https://discord.gg/t5rjCeP399"><img src="./discord-server.svg" height="44" alt="Discord Server"></a>&nbsp;
 <a href="https://www.youtube.com/@deitzuu"><img src="./youtube.svg" height="44" alt="YouTube · deitzuu"></a>
-<br>
+
 <a href="https://github.com/deitzu"><img src="https://komarev.com/ghpvc/?username=deitzu&label=PROFILE+VIEWS&color=30363d&style=flat-square" height="24" alt="Profile views"></a>
+
+### Stack
+
+`C#` `Java` `JavaScript` `Bash` `Git` `Linux`
+
+### GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=deitzu&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" height="165" alt="Deitzu's GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deitzu&layout=compact&hide_border=true&theme=github_dark" height="165" alt="Deitzu's top languages">
+
+</details>
