@@ -54,16 +54,16 @@
 <br>
 
 <h4>Game servers</h4>
-<p>i like the whole server side of games more than actually making the game itself. running them, tweaking them, fixing weird issues, and seeing how everything talks to everything else.</p>
+<p>i got more interested in what happens around a game than actually making the game itself. i like running servers, messing with plugins and configs, fixing weird compatibility problems, and figuring out why something randomly decides to break at 3am.</p>
 
 <h4>Linux / Termux</h4>
-<p>mostly where i mess around with servers, system stuff, CLI tools, and random experiments that probably started with one harmless command.</p>
+<p>this is basically my playground for system stuff. i use it for CLI tools, servers, scripting, experiments, and whatever random idea needs a shell before it turns into an actual project.</p>
 
 <h4>Networking</h4>
-<p>this one lines up with what i'm actually studying. protocols, ports, routing, DNS, fiber, and generally figuring out why two machines refuse to talk to each other.</p>
+<p>this one is partly because i'm actually studying it, but i also genuinely like figuring out how everything connects. protocols, ports, routing, DNS, fiber, and the fun little mystery of why two machines can see each other but still refuse to cooperate.</p>
 
 <h4>Network security</h4>
-<p>more interested in the network side of security than trying to cover every security topic ever invented. mostly the practical side of keeping services and traffic under control.</p>
+<p>i'm more interested in the network side of security than trying to learn every security topic at once. things like traffic, ports, firewalls, exposed services, and figuring out how to keep a network doing what it's supposed to do without accidentally opening a giant hole.</p>
 
 </details>
 
