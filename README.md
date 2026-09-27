@@ -6,8 +6,8 @@
 
 <img src="./profile.svg" width="100%" alt="Deitzu profile">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=deitzu&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" height="165" alt="Deitzu's GitHub stats">
-<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=deitzu&layout=compact&hide_border=true&theme=github_dark" height="165" alt="Deitzu's top languages">
+<img src="https://github-readme-stats-fast.vercel.app/api?username=deitzu&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" height="165" alt="Deitzu's GitHub stats">
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=deitzu&layout=compact&hide_border=true&theme=tokyonight" height="165" alt="Deitzu's top languages">
 
 <img src="https://skillicons.dev/icons?i=cs,java,js,bash,git,linux" height="48" alt="C# · Java · JavaScript · Bash · Git · Linux">
 
