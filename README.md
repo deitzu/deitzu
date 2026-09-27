@@ -11,32 +11,6 @@
 
 <img src="./terminal.svg" width="100%" alt="Deitzu terminal profile">
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-<details>
-<summary>Detail Interests</summary>
-
-<br>
-
-<h4>Game servers</h4>
-<p>i like the whole server side of games more than actually making the game itself. running them, tweaking them, fixing weird issues, and seeing how everything talks to everything else.</p>
-
-<h4>Linux / Termux</h4>
-<p>mostly where i mess around with servers, system stuff, CLI tools, and random experiments that probably started with one harmless command.</p>
-
-<h4>Networking</h4>
-<p>this one lines up with what i'm actually studying. protocols, ports, routing, DNS, fiber, and generally figuring out why two machines refuse to talk to each other.</p>
-
-<h4>Network security</h4>
-<p>more interested in the network side of security than trying to cover every security topic ever invented. mostly the practical side of keeping services and traffic under control.</p>
-
-</details>
-
-</td>
-<td valign="top" width="50%">
-
 <details>
 <summary>Detail Stack</summary>
 
@@ -74,9 +48,24 @@
 
 </details>
 
-</td>
-</tr>
-</table>
+<details>
+<summary>Detail Interests</summary>
+
+<br>
+
+<h4>Game servers</h4>
+<p>i like the whole server side of games more than actually making the game itself. running them, tweaking them, fixing weird issues, and seeing how everything talks to everything else.</p>
+
+<h4>Linux / Termux</h4>
+<p>mostly where i mess around with servers, system stuff, CLI tools, and random experiments that probably started with one harmless command.</p>
+
+<h4>Networking</h4>
+<p>this one lines up with what i'm actually studying. protocols, ports, routing, DNS, fiber, and generally figuring out why two machines refuse to talk to each other.</p>
+
+<h4>Network security</h4>
+<p>more interested in the network side of security than trying to cover every security topic ever invented. mostly the practical side of keeping services and traffic under control.</p>
+
+</details>
 
 <!-- Brand icons in the SVGs use Font Awesome Free 6.7.2, licensed under CC BY 4.0. -->
 
