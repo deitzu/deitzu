@@ -1,5 +1,5 @@
 ### Hello There 👋
-> a random network student learning how to code
+> a random network student that learn how to code
 
 <details>
 <summary>More about me</summary>
